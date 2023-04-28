@@ -145,6 +145,25 @@ a{
     letter-spacing: 0.09px;
     text-decoration: none;
     line-height: 20px;
+    /* border: 1px solid green; */
+    position: relative;
+}
+
+.nav-link::before
+{
+    content: '';
+    height: 3px;
+    width: 0;
+    position: absolute;
+    left: 0;
+    bottom: -3px;
+    background-color: #e72c30;
+    transition: 0.2s;
+}
+
+.nav-link:hover::before
+{
+  width: 70%;
 }
 
 /* ****** Navigation header css ends ***** */
@@ -164,10 +183,10 @@ a{
 .music-libs
 {
    flex: 7;
-   /* max-width: calc(100% - 90px); */
+   max-width: calc(100% - 90px);
    padding: 0 45px;
    margin: 0 auto 100px;
-   max-width: 70%;
+   /* max-width: 70%; */
 }
 
 .ad-cont
@@ -217,8 +236,27 @@ a{
 {
    display: flex;
    flex-direction: row;
-   overflow: hidden;
+   overflow: auto;
+   /* border: 1px solid red; */
 }
+
+/*custom Scrollbar of (.sonts-cont) */
+.songs-cont::-webkit-scrollbar {
+    height: 4px;
+  }
+  
+  .songs-cont::-webkit-scrollbar-track {
+    background: #000;
+  }
+  
+  .songs-cont::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 5px;
+  }
+  
+  .songs-cont::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
 
 .song-card
 {

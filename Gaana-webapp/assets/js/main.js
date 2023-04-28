@@ -12,73 +12,60 @@ let currentSongObj = {};
 let defaultImage = './images/defaultImage.gif';
 
 // CORE APP LOGIC
-window.addEventListener('load', bootUpApp);
+window.addEventListener('load', fetchAllSlidersData);
 
-function bootUpApp() {
-    fetchAndRenderAllSections();
-}
-
-function fetchAndRenderAllSections() {
-    // Fetch all Section Data
-    fetch('./assets/js/gaanaYTDB.json')
-        .then(res => res.json())
-        .then(res => {
-            // console.log(data);
-            const { cardbox } = res;
-            if (Array.isArray(cardbox) && cardbox.length) {
-
-                cardbox.forEach((section) => {
-                    const { songsbox, songscards } = section;
-                    // console.log(songscards);
-                    renderSection(songsbox, songscards)
-                })
-            }
-        })
-        .catch(error => console.error(error));
-
-
-
-    //    renderSection(data);
-}
-
-function renderSection(title, songsList) {
-    const songsSections = makeSectionDOM(title, songsList);
-
-    musicLibsContainer.appendChild(songsSections);
-    // console.log(songsSections);
-}
-
-function makeSectionDOM(title, songsList) {
-    // console.log(title, songsList);
-
-    const sectionDiv = document.createElement('div');
-    sectionDiv.className = 'songs-sections';  // add className to div Elem
-
-
-    sectionDiv.innerHTML = `
-        <h1 class="section-heading">${title}</h1>
-        <div class="songs-cont">
-        ${songsList.map((songObj) => {
-            return buildSongCardDOM(songObj)
-         // console.log(songObj);
-        }).join('')
-        }
-        </div>
-    `
-    // console.log(sectionDiv);
-    return sectionDiv;
+function fetchAllSlidersData() {
+  fetch('./assets/js/sliders.json')
+    .then(res => res.json())
+    .then((data) => {
+      // console.log(data.sliders);
+      data.sliders.forEach((slidersData) => {
+        const { sliderName, songsCards } = slidersData;
+        // console.log(sliderName, songsCards);
+        renderAllSliders(sliderName, songsCards)
+      })
+    })
+    .catch(error => console.log(error));
 }
 
 
-function buildSongCardDOM(songObj) {
-    return `<div class="song-card" onclick="playSong(this)" data-songObj='${JSON.stringify(songObj)}'>
-    <div class="img-cont">
-       <img src="./${songObj.image_source}" alt="${songObj.song_name}">
-       <div class="overlay"></div>
-    </div>
-   <p class="song-name">${songObj.song_name}</p>
-   </div>
-   `
+function renderAllSliders(sliderTitle, songsList) {
+
+  const songsSliders = createSliderDOM(sliderTitle, songsList);
+  // console.log(songsSliders);
+
+  musicLibsContainer.appendChild(songsSliders);
+}
+
+
+function createSliderDOM(sliderTitle, songsList) {
+  console.log(sliderTitle, songsList);
+  const sectionDiv = document.createElement('div');
+  sectionDiv.className = 'songs-sections';
+
+  sectionDiv.innerHTML = `
+            <h1 class="section-heading">${sliderTitle}</h1>
+            <div class="songs-cont">
+              ${songsList.map((songsCardData) => {
+    return createSongCardDOM(songsCardData)
+  }).join('')}
+            </div>
+  `
+  return sectionDiv;
+}
+
+
+function createSongCardDOM(songsCardDataRec) {
+  // console.log(songsCardDataRec);
+  return `
+              <div class="song-card">
+                    <div class="img-cont">
+                        <img src="${songsCardDataRec.image_source}" alt="">
+                        <div class="overlay"></div>
+                    </div>
+                    <p class="song-name">${songsCardDataRec.song_name}</p>
+              </div>
+  `;
 }
 
 
