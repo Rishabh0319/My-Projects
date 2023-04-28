@@ -1,0 +1,793 @@
+{
+    "current_playlist": [],
+    "cardbox": [
+        {
+            "songsbox": "Trending Songs",
+            "songscards": [
+                {
+                    "id": 0,
+                    "playlist_type": true,
+                    "playlist": [
+                        {
+                            "id": 0,
+                            "song_name": "Dil Ne",
+                            "album_name": "Dil Ne Song | Manish Joshi | दिल ने",
+                            "singers": "Manish Joshi, Aditya Dev",
+                            "image_source": "https://a10.gaanacdn.com/gn_img/albums/Rz4W87v3xD/4W8eLQG1bx/size_m.webp",
+                            "release_date": "2021",
+                            "duration": "3 min 49 sec"
+                        },
+                        {
+                            "id": 1,
+                            "song_name": "Flowers",
+                            "album_name": "Flowers Song | Miley Cyrus",
+                            "singers": "Miley Cyrus",
+                            "image_source": "https://a10.gaanacdn.com/gn_img/albums/a7LWBzWzXA/LWBkgMzkbz/size_l.jpg",
+                            "release_date": "2023",
+                            "duration": "3 min 20 sec"
+                        },
+                        {
+                            "id": 2,
+                            "song_name": "Oh Sanam | ओह सनम",
+                            "album_name": "Oh Sanam Song | Tony Kakkar | ओह सनम",
+                            "singers": "Tony Kakkar, Shreya Ghoshal",
+                            "image_source": "https://a10.gaanacdn.com/gn_img/albums/7rVW1aRWk5/VW1aEGejWk/size_l.webp",
+                            "release_date": "2021",
+                            "duration": "3 min 29 sec"
+                        },
+                        {
+                            "id": 3,
+                            "song_name": "Baarish Ki Jaaye",
+                            "album_name": "Baarish Ki Jaaye Song | B Praak | बारिश की जाएं",
+                            "singers": "B Praak, Nawazuddin Siddiqui, Sunanda Sharma",
+                            "image_source": "https://a10.gaanacdn.com/gn_img/song/Bp1bAynb02/1bAzZJgAK0/size_l_1619031552.webp",
+                            "release_date": "2021",
+                            "duration": "4 min 11 sec"
+                        },
+                        {
+                            "id": 4,
+                            "song_name": "People",
+                            "album_name": "People",
+                            "singers": "Libianca",
+                            "image_source": "https://a10.gaanacdn.com/gn_img/albums/BZgWoQOK2d/gWoQyzxEK2/size_l.jpg",
+                            "release_date": "2022",
+                            "duration": "3 min 04 sec"
+                        },
+                        {
+                            "id": 5,
+                            "song_name": "Nadiyon Paar",
+                            "album_name": "Nadiyon Paar (Let the Music Play Again) Song | Sachin-Jigar | Roohi (Original Motion Picture",
+                            "singers": "Sachin-Jigar, Rashmeet Kaur, Shamur, IP Singh",
+                            "image_source": "https://a10.gaanacdn.com/gn_img/song/4Z9bqo3yQn/9bqje5jXKy/size_l_1614769974.webp",
+                            "release_date": "2021",
+                            "duration": "2 min 44 sec"
+                        },
+                        {
+                            "id": 6,
+                            "song_name": "Tera Suit Song | तेरा सूट",
+                            "album_name": "Tera Suit Song | Tony Kakkar | तेरा सूट",
+                            "singers": "Tony Kakkar",
+                            "image_source": "https://a10.gaanacdn.com/gn_img/albums/Oxd3xP3gVY/d3xzDvwQbg/size_l.webp",
+                            "release_date": "2021",
+                            "duration": "2 min 30 sec"
+                        },
+                        {
+                            "id": 7,
+                            "song_name": "Bepanah Pyaar",
+                            "album_name": "Bepanah Pyaar Song | Payal Dev | बेपनाह प्यार",
+                            "singers": "Payal Dev, Yasser Desai",
+                            "image_source": "https://a10.gaanacdn.com/gn_img/albums/6Zxb27K9wN/xb2rpLxYb9/size_l.webp",
+                            "release_date": "2021",
+                            "duration": "3 min 38 sec"
+                        },
+                        {
+                            "id": 8,
+                            "song_name": "Panghat | पनघट",
+                            "album_name": "Roohi (Original Motion Picture Soundtrack)",
+                            "singers": "Sachin-Jigar, Asees Kaur, Divya Kumar, Mellow D",
+                            "image_source": "https://a10.gaanacdn.com/gn_img/song/R7vKXr6Wmr/vKX0vyJxKm/size_l_1614145756.webp",
+                            "release_date": "2021",
+                            "duration": "2 min 59 sec"
+                        },
+                        {
+                            "id": 9,
+                            "song_name": "Madhanya | मैड्हैनीअ",
+                            "album_name": "Madhanya | मैड्हैनीअ",
+                            "singers": "Rahul Vaidya, Asees Kaur, Lijo George-Dj Chetas",
+                            "image_source": "https://a10.gaanacdn.com/gn_img/albums/NOXWVRgWkq/XWVR5R5gWk/size_l.webp",
+                            "release_date": "2021",
+                            "duration": "3 min 50 sec"
+                        },
+                        {
+                            "id": 10,
+                            "song_name": "Shola | शोला",
+                            "album_name": "Shola",
+                            "singers": "AKASA, Charan",
+                            "image_source": "https://a10.gaanacdn.com/gn_img/albums/NOXWVRgWkq/XWVRyPLwWk/size_l_1618375089.webp",
+                            "release_date": "2021",
+                            "duration": "2 min 04 sec"
+                        },
+                        {
+                            "id": 11,
+                            "song_name": "Fly | फ्लाई",
+                            "album_name": "Fly Song | Badshah | फ्लाई",
+                            "singers": "Badshah, Uchana Amit, Shehnaz Kaur Gill",
+                            "image_source": "https://a10.gaanacdn.com/gn_img/albums/Oxd3xzPbgV/d3xzD8wDbg/size_l.webp",
+                            "release_date": "2021",
+                            "duration": "2 min 43 sec"
+                        },
+                        {
+                            "id": 12,
+                            "song_name": "Kaise Juda Rahein Song | कैसे जुदा राहें",
+                            "album_name": "Kaise Juda Rahein Song | Prem | कैसे जुदा राहें",
+                            "singers": "Prem, Hardeep, Stebin Ben",
+                            "image_source": "https://a10.gaanacdn.com/gn_img/albums/g4w3vwrWjJ/w3vwJPXoWj/size_l.webp",
+                            "release_date": "2021",
+                            "duration": "4 min 15 sec"
+                        },
+                        {
+                            "id": 13,
+                            "song_name": "Rabba Mehr Kari",
+                            "album_name": "Rabba Mehr Kari Song | Darshan Raval",
+                            "singers": "Darshan Raval",
+                            "image_source": "https://a10.gaanacdn.com/gn_img/albums/dwN39y83DP/N39yyPOy3D/size_l.webp",
+                            "release_date": "2021",
+                            "duration": "3 min 30 sec"
+                        },
+                        {
+                            "id": 14,
+                            "song_name": "Vilayati Sharaab | विलायती शराब",
+                            "album_name": "Vilayati Sharaab Song | Darshan Raval | विलायती शराब",
+                            "singers": "Darshan Raval, Neeti Mohan",
+                            "image_source": "https://a10.gaanacdn.com/gn_img/albums/dwN39y83DP/N39y4Z753D/size_l.webp",
+                            "release_date": "2021",
+                            "duration": "3 min 05 sec"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "songsbox": "New Releases",
+            "songscards": [
+                {
+                    "id": 1,
+                    "playlist_type": true,
+                    "playlist": [
+                        {
+                            "id": 0,
+                            "song_name": "Sab Gazab",
+                            "album_name": "Sab Gazab Song | Goldkartz",
+                            "singers": "Goldkartz, Badshah, Hiten", 
+                            "image_source": "https://a10.gaanacdn.com/gn_img/albums/oAJbDlbnL8/JbDEGDzDKn/size_l.jpg",
+                            "release_date": "2023",
+                            "duration": "3 min 17 sec"
+                        },
+                        {
+                            "id": 1,
+                            "song_name": "Did you know that there's a tunnel under Ocean Blvd",
+                            "album_name": "Did you know that there's a tunnel under Ocean Blvd | Lana Del Rey",
+                            "singers": "Lana Del Rey, Jon Batiste, Syml",
+                            "image_source": "https://a10.gaanacdn.com/gn_img/albums/21GWwR3pkg/GWwr7xND3p/size_l_1679644453.webp",
+                            "release_date": "2023",
+                            "duration": "4 min 45 sec"
+                        },
+                        {
+                            "id": 2,
+                            "song_name": "Yaad Aati Hai Song | याद आती है",
+                            "album_name": "Yaad Aati Hai Song | Harrdy Sandhu | याद आती है",
+                            "singers": "Harrdy Sandhu, Abhishek Singh",
+                            "image_source": "https://a10.gaanacdn.com/gn_img/albums/9MAWe97WyJ/AWe9kY9RWy/size_l.jpg",
+                            "release_date": "2023",
+                            "duration": "3 min 43 sec"
+                        },
+                        {
+                            "id": 3,
+                            "song_name": "Endless Summer Vacation",
+                            "album_name": "Endless Summer Vacation | Miley Cyrus",
+                            "singers": "Miley Cyrus, Brandi Carlile, SIA",
+                            "image_source": "https://a10.gaanacdn.com/gn_img/albums/kGxbn03y4r/xbnw0qv1Ky/size_l.jpg",
+                            "release_date": "2023",
+                            "duration": "3 min 45 sec"
+                        },
+                        {
+                            "id": 4,
+                            "song_name": "Pathaan",
+                            "album_name": "Pathaan | Vishal-Shekhar",
+                            "singers": "Vishal-Shekhar, Sanchit Balhara, Ankit Balhara",
+                            "image_source": "https://a10.gaanacdn.com/gn_img/albums/a7LWBaz3zX/LWBkQx9Dbz/size_l.jpg",
+                            "release_date": "2022",
+                            "duration": "3 min 34 sec"
+                        },
+                        {
+                            "id": 5,
+                            "song_name": "Don’t Get Too Close",
+                            "album_name": "Warner Music Group",
+                            "singers": "Skrillex, Bobby Raps, PinkPantheress",
+                            "image_source": "https://a10.gaanacdn.com/gn_img/albums/XYybzrb2gz/ybzNGG14b2/size_l.jpg",
+                            "release_date": "2023",
+                            "duration": "3 min 35 sec"
+                        },
+                        {
+                            "id": 6,
+                            "song_name": "Main Khiladi",
+                            "album_name": "Main Khiladi Song | Udit Narayan | Main Khiladi (From 'Selfiee')",
+                            "singers": "Udit Narayan, Abhijeet Bhattacharya, Tanishk Bagch",
+                            "image_source": "https://a10.gaanacdn.com/gn_img/albums/2lV3dl13Rg/V3dl92vx3R/size_l.jpg",
+                            "release_date": "2023",
+                            "duration": "3 min 07 sec"
+                        },
+                        {
+                            "id": 7,
+                            "song_name": "surrounded by hounds and serpents",
+                            "album_name": "surrounded by hounds and serpents | Isaiah Faber | Powfu",
+                            "singers": "Isaiah Faber, Anthony Tubbs, Jeremy Fedryk",
+                            "image_source": "https://a10.gaanacdn.com/gn_img/albums/0wrb4kNWLg/rb4qo9pLKL/size_l.jpg",
+                            "release_date": "2022",
+                            "duration": "3 min 24 sec"
+                        },
+                        {
+                            "id": 8,
+                            "song_name": "Fly Fly Away",
+                            "album_name": "Fly Fly Away Song | Shekhar Ravjiani",
+                            "singers": "Shekhar Ravjiani, Shivam Sengupta, Anuj Danait",
+                            "image_source": "https://a10.gaanacdn.com/gn_img/albums/81l3Me3rMx/l3MyAj0G3r/size_l.jpg",
+                            "release_date": "2023",
+                            "duration": "4 min 04 sec"
+                        },
+                        {
+                            "id": 9,
+                            "song_name": "Piya Re Song | पिया रे",
+                            "album_name": "Piya Re Song | Darshan Raval | पिया रे",
+                            "singers": "Darshan Raval",
+                            "image_source": "https://a10.gaanacdn.com/gn_img/albums/6Zxb27K9wN/xb2rMyXJb9/size_l.jpg",
+                            "release_date": "2023",
+                            "duration": "3 min 55 sec"
+                        },
+                        {
+                            "id": 10,
+                            "song_name": "Besharam Rang",
+                            "album_name": "Besharam Rang (From 'Pathaan')",
+                            "singers": "Vishal-Shekhar, Shilpa Rao, Caralisa Monteiro",
+                            "image_source": "https://a10.gaanacdn.com/gn_img/albums/9En3peWXDV/n3pqyDq4WX/size_l.jpg",
+                            "release_date": "2022",
+                            "duration": "4 min 18 sec"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "songsbox": "Top Charts",
+            "songscards": [
+                {
+                    "id": 0,
+                    "playlist_type": true,
+                    "playlist": [
+                        {
+                            "id": 0,
+                            "song_name": "",
+                            "album_name": "",
+                            "singers": "",
+                            "image_source": "",
+                            "release_date": "",
+                            "duration": ""
+                        },
+                        {
+                            "id": 1,
+                            "song_name": "",
+                            "album_name": "",
+                            "singers": "",
+                            "image_source": "",
+                            "release_date": "",
+                            "duration": ""
+                        },
+                        {
+                            "id": 2,
+                            "song_name": "",
+                            "album_name": "",
+                            "singers": "",
+                            "image_source": "",
+                            "release_date": "",
+                            "duration": ""
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "songsbox": "Top Searched Artists",
+            "songscards": [
+                {
+                    "id": 0,
+                    "playlist_type": true,
+                    "playlist": [
+                        {
+                            "id": 0,
+                            "song_name": "",
+                            "album_name": "",
+                            "singers": "",
+                            "image_source": "",
+                            "release_date": "",
+                            "duration": ""
+                        },
+                        {
+                            "id": 1,
+                            "song_name": "",
+                            "album_name": "",
+                            "singers": "",
+                            "image_source": "",
+                            "release_date": "",
+                            "duration": ""
+                        },
+                        {
+                            "id": 2,
+                            "song_name": "",
+                            "album_name": "",
+                            "singers": "",
+                            "image_source": "",
+                            "release_date": "",
+                            "duration": ""
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "songsbox": "Top Playlists",
+            "songscards": [
+                {
+                    "id": 0,
+                    "playlist_type": true,
+                    "playlist": [
+                        {
+                            "id": 0,
+                            "song_name": "",
+                            "album_name": "",
+                            "singers": "",
+                            "image_source": "",
+                            "release_date": "",
+                            "duration": ""
+                        },
+                        {
+                            "id": 1,
+                            "song_name": "",
+                            "album_name": "",
+                            "singers": "",
+                            "image_source": "",
+                            "release_date": "",
+                            "duration": ""
+                        },
+                        {
+                            "id": 2,
+                            "song_name": "",
+                            "album_name": "",
+                            "singers": "",
+                            "image_source": "",
+                            "release_date": "",
+                            "duration": ""
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "songsbox": "Popular In Hindi",
+            "songscards": [
+                {
+                    "id": 0,
+                    "playlist_type": true,
+                    "playlist": [
+                        {
+                            "id": 0,
+                            "song_name": "",
+                            "album_name": "",
+                            "singers": "",
+                            "image_source": "",
+                            "release_date": "",
+                            "duration": ""
+                        },
+                        {
+                            "id": 1,
+                            "song_name": "",
+                            "album_name": "",
+                            "singers": "",
+                            "image_source": "",
+                            "release_date": "",
+                            "duration": ""
+                        },
+                        {
+                            "id": 2,
+                            "song_name": "",
+                            "album_name": "",
+                            "singers": "",
+                            "image_source": "",
+                            "release_date": "",
+                            "duration": ""
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "songsbox": "Romance",
+            "songscards": [
+                {
+                    "id": 0,
+                    "playlist_type": true,
+                    "playlist": [
+                        {
+                            "id": 0,
+                            "song_name": "",
+                            "album_name": "",
+                            "singers": "",
+                            "image_source": "",
+                            "release_date": "",
+                            "duration": ""
+                        },
+                        {
+                            "id": 1,
+                            "song_name": "",
+                            "album_name": "",
+                            "singers": "",
+                            "image_source": "",
+                            "release_date": "",
+                            "duration": ""
+                        },
+                        {
+                            "id": 2,
+                            "song_name": "",
+                            "album_name": "",
+                            "singers": "",
+                            "image_source": "",
+                            "release_date": "",
+                            "duration": ""
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "songsbox": "Featured Artists",
+            "songscards": [
+                {
+                    "id": 0,
+                    "playlist_type": true,
+                    "playlist": [
+                        {
+                            "id": 0,
+                            "song_name": "",
+                            "album_name": "",
+                            "singers": "",
+                            "image_source": "",
+                            "release_date": "",
+                            "duration": ""
+                        },
+                        {
+                            "id": 1,
+                            "song_name": "",
+                            "album_name": "",
+                            "singers": "",
+                            "image_source": "",
+                            "release_date": "",
+                            "duration": ""
+                        },
+                        {
+                            "id": 2,
+                            "song_name": "",
+                            "album_name": "",
+                            "singers": "",
+                            "image_source": "",
+                            "release_date": "",
+                            "duration": ""
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "songsbox": "Radio",
+            "songscards": [
+                {
+                    "id": 0,
+                    "playlist_type": true,
+                    "playlist": [
+                        {
+                            "id": 0,
+                            "song_name": "",
+                            "album_name": "",
+                            "singers": "",
+                            "image_source": "",
+                            "release_date": "",
+                            "duration": ""
+                        },
+                        {
+                            "id": 1,
+                            "song_name": "",
+                            "album_name": "",
+                            "singers": "",
+                            "image_source": "",
+                            "release_date": "",
+                            "duration": ""
+                        },
+                        {
+                            "id": 2,
+                            "song_name": "",
+                            "album_name": "",
+                            "singers": "",
+                            "image_source": "",
+                            "release_date": "",
+                            "duration": ""
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "songsbox": "Gaana Recommends",
+            "songscards": [
+                {
+                    "id": 0,
+                    "playlist_type": true,
+                    "playlist": [
+                        {
+                            "id": 0,
+                            "song_name": "",
+                            "album_name": "",
+                            "singers": "",
+                            "image_source": "",
+                            "release_date": "",
+                            "duration": ""
+                        },
+                        {
+                            "id": 1,
+                            "song_name": "",
+                            "album_name": "",
+                            "singers": "",
+                            "image_source": "",
+                            "release_date": "",
+                            "duration": ""
+                        },
+                        {
+                            "id": 2,
+                            "song_name": "",
+                            "album_name": "",
+                            "singers": "",
+                            "image_source": "",
+                            "release_date": "",
+                            "duration": ""
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "songsbox": "Gaana Originals",
+            "songscards": [
+                {
+                    "id": 0,
+                    "playlist_type": true,
+                    "playlist": [
+                        {
+                            "id": 0,
+                            "song_name": "",
+                            "album_name": "",
+                            "singers": "",
+                            "image_source": "",
+                            "release_date": "",
+                            "duration": ""
+                        },
+                        {
+                            "id": 1,
+                            "song_name": "",
+                            "album_name": "",
+                            "singers": "",
+                            "image_source": "",
+                            "release_date": "",
+                            "duration": ""
+                        },
+                        {
+                            "id": 2,
+                            "song_name": "",
+                            "album_name": "",
+                            "singers": "",
+                            "image_source": "",
+                            "release_date": "",
+                            "duration": ""
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "songsbox": "Popular In English",
+            "songscards": [
+                {
+                    "id": 0,
+                    "playlist_type": true,
+                    "playlist": [
+                        {
+                            "id": 0,
+                            "song_name": "",
+                            "album_name": "",
+                            "singers": "",
+                            "image_source": "",
+                            "release_date": "",
+                            "duration": ""
+                        },
+                        {
+                            "id": 1,
+                            "song_name": "",
+                            "album_name": "",
+                            "singers": "",
+                            "image_source": "",
+                            "release_date": "",
+                            "duration": ""
+                        },
+                        {
+                            "id": 2,
+                            "song_name": "",
+                            "album_name": "",
+                            "singers": "",
+                            "image_source": "",
+                            "release_date": "",
+                            "duration": ""
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "songsbox": "Star Gallery",
+            "songscards": [
+                {
+                    "id": 0,
+                    "playlist_type": true,
+                    "playlist": [
+                        {
+                            "id": 0,
+                            "song_name": "",
+                            "album_name": "",
+                            "singers": "",
+                            "image_source": "",
+                            "release_date": "",
+                            "duration": ""
+                        },
+                        {
+                            "id": 1,
+                            "song_name": "",
+                            "album_name": "",
+                            "singers": "",
+                            "image_source": "",
+                            "release_date": "",
+                            "duration": ""
+                        },
+                        {
+                            "id": 2,
+                            "song_name": "",
+                            "album_name": "",
+                            "singers": "",
+                            "image_source": "",
+                            "release_date": "",
+                            "duration": ""
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "songsbox": "Bhakti",
+            "songscards": [
+                {
+                    "id": 0,
+                    "playlist_type": true,
+                    "playlist": [
+                        {
+                            "id": 0,
+                            "song_name": "",
+                            "album_name": "",
+                            "singers": "",
+                            "image_source": "",
+                            "release_date": "",
+                            "duration": ""
+                        },
+                        {
+                            "id": 1,
+                            "song_name": "",
+                            "album_name": "",
+                            "singers": "",
+                            "image_source": "",
+                            "release_date": "",
+                            "duration": ""
+                        },
+                        {
+                            "id": 2,
+                            "song_name": "",
+                            "album_name": "",
+                            "singers": "",
+                            "image_source": "",
+                            "release_date": "",
+                            "duration": ""
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "songsbox": "Indie Playlists",
+            "songscards": [
+                {
+                    "id": 0,
+                    "playlist_type": true,
+                    "playlist": [
+                        {
+                            "id": 0,
+                            "song_name": "",
+                            "album_name": "",
+                            "singers": "",
+                            "image_source": "",
+                            "release_date": "",
+                            "duration": ""
+                        },
+                        {
+                            "id": 1,
+                            "song_name": "",
+                            "album_name": "",
+                            "singers": "",
+                            "image_source": "",
+                            "release_date": "",
+                            "duration": ""
+                        },
+                        {
+                            "id": 2,
+                            "song_name": "",
+                            "album_name": "",
+                            "singers": "",
+                            "image_source": "",
+                            "release_date": "",
+                            "duration": ""
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "songsbox": "Mehfil-E-Ghazal",
+            "songscards": [
+                {
+                    "id": 0,
+                    "playlist_type": true,
+                    "playlist": [
+                        {
+                            "id": 0,
+                            "song_name": "",
+                            "album_name": "",
+                            "singers": "",
+                            "image_source": "",
+                            "release_date": "",
+                            "duration": ""
+                        },
+                        {
+                            "id": 1,
+                            "song_name": "",
+                            "album_name": "",
+                            "singers": "",
+                            "image_source": "",
+                            "release_date": "",
+                            "duration": ""
+                        },
+                        {
+                            "id": 2,
+                            "song_name": "",
+                            "album_name": "",
+                            "singers": "",
+                            "image_source": "",
+                            "release_date": "",
+                            "duration": ""
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
