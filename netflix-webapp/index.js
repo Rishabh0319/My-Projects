@@ -6,11 +6,41 @@ const imagePath = "https://image.tmdb.org/t/p/original";
 
 const apiPath = {
     fetchAllCategories: `${apiEndPoint}/genre/movie/list?api_key=${API_KEY}`,
-    fetchMoviesList: (id) => `${apiEndPoint}/discover/movie?api_key=${API_KEY}&with_genres=${id}`
+    fetchMoviesList: (id) => `${apiEndPoint}/discover/movie?api_key=${API_KEY}&with_genres=${id}`,
+    fetchTrending: `${apiEndPoint}/trending/all/day?api_key=${API_KEY}&language=en-US`
 }
 
 function init() {
+    fetchTrendingMovies();
     fetchAndBuildAllSections();
+}
+
+function fetchTrendingMovies() {
+    // for creating Trending Now Section
+    fetchAndBuildMovieSection(apiPath.fetchTrending, 'Trending Now')
+        .then(list => {
+            const randomIndex = parseInt(Math.random() * list.length);
+            buildBannerSection(list[randomIndex])
+        }).catch(error => console.log(error))
+}
+
+function buildBannerSection(movie) {
+    const bannerCont = document.getElementById('banner-section');
+    bannerCont.style.backgroundImage = `url('${imagePath}${movie.backdrop_path}')`;
+
+    const div = document.createElement('div');
+    div.innerHTML = `
+    <h2 class="banner__title">${movie.title}</h2>  
+    <p class="banner__info">Trending in Movies | Released ${movie.release_date}</p>
+    <p class="banner__overview">${movie.overview && movie.overview.length > 200 ? movie.overview.slice(0, 200).trim() + '...' : movie.overview}</p>
+    <div class="action-button-cont">
+        <button class="action-button"><ion-icon name="play"></ion-icon> &nbsp;&nbsp; Play</button>
+        <button class="action-button"><ion-icon name="information-circle-outline"></ion-icon> &nbsp;&nbsp; More Info</button>
+    </div>
+    <div class="banner-fade-bottom"></div> -->
+    `
+    div.className = 'banner-content container';
+    bannerCont.append(div);
 }
 
 function fetchAndBuildAllSections() {
@@ -22,10 +52,10 @@ function fetchAndBuildAllSections() {
             // to check response is in Array formate or not
             if (Array.isArray(categories) && categories.length) {
                 // console.table(categories)
-                categories.slice(0, 5).forEach((category) => {
+                categories.forEach((category) => {
                     fetchAndBuildMovieSection(
                         apiPath.fetchMoviesList(category.id),
-                        category
+                        category.name
                     );
                 })
             }
@@ -34,18 +64,19 @@ function fetchAndBuildAllSections() {
         .catch(error => console.log(error));
 }
 
-function fetchAndBuildMovieSection(fetchUrl, category) {
+function fetchAndBuildMovieSection(fetchUrl, categoryName) {
     //    console.log(fetchUrl, category) 
 
-    fetch(fetchUrl)
+    return fetch(fetchUrl)
         .then(res => res.json())
         .then((res) => {
             // console.log(res.results)
             const movies = res.results
 
             if (Array.isArray(movies) && movies.length) {
-                buildMoviesSection(movies.slice(0, 8), category.name)
+                buildMoviesSection(movies.slice(0, 8), categoryName)
             }
+            return movies;
         })
         .catch(error => console.log(error));
 }
@@ -69,7 +100,7 @@ function buildMoviesSection(list, categoryName) {
               ${moviesListHTML}
             </div>
     `
-    console.log(moviesSectionHTML);
+    // console.log(moviesSectionHTML);
 
     const divSection = document.createElement('div');
     divSection.className = 'movies-section';
@@ -80,4 +111,15 @@ function buildMoviesSection(list, categoryName) {
 }
 
 // call init() function on page Load
-window.addEventListener('load', init);
+window.addEventListener('load', ()=>{
+    init();
+
+    window.addEventListener('scroll',()=>{
+        // header UI update
+        const header = document.getElementById('header');
+        if(window.scrollY > 5)
+           header.classList.add('black-bg');
+        else
+           header.classList.remove('black-bg');   
+    });
+});
