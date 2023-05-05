@@ -1,22 +1,234 @@
 <!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title></title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="">
-    </head>
-    <body>
-        <!--[if lt IE 7]>
-            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Tvflix is the popular movie App made by Rishabh Tripathi">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+
+    <!-- CUSTOM CSS LINK -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+    <!-- GOOGLE FONTS LINKS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap" rel="stylesheet">
+
+    <!-- CUSTOM JS LINKS -->
+    <script src="./assets/js/global.js" async defer></script>
+    <script src="./assets/js/detail.js" type="module" async defer></script>
+</head>
+
+<body>
+
+    <!-- HEADER START HERE -->
+    <header class="header">
+
+        <a href="./index.html" class="logo">
+            <img src="./assets/images/logo.svg" alt="Tvflix home" width="140" height="32">
+        </a>
+
+        <div class="search-box" search-box>
+            <div class="search-wrapper" search-wrapper>
+                <input class="search-field" type="text" name="search" autocomplete="off"
+                    placeholder="Search any Movies..." aria-label="search movies" search-field>
+                <img src="./assets/images/search.png" alt="" class="leading-icon" width="24" height="24">
+            </div>
+
+            <button class="search-btn" search-toggler>
+                <img src="./assets/images/close.png" alt="close serach box" width="24" height="24">
+            </button>
+        </div>
+
+        <button class="search-btn" search-toggler menu-close>
+            <img src="./assets/images/search.png" alt="open search box" width="24" height="24">
+        </button>
+
+        <button class="menu-btn" menu-btn menu-toggler>
+            <img class="menu" src="./assets/images/menu.png" alt="open menu" width="24" height="24">
+            <img class="close" src="./assets/images/menu-close.png" alt="close menu" width="24" height="24">
+        </button>
+
+    </header>
+    <!-- HEADER ENDS HERE -->
+
+
+    <!-- SIDEBAR START HERE -->
+    <nav class="sidebar " sidebar>
+        <div class="sidebar-inner">
+            <div class="sidebar-list">
+
+                <p class="title">Genre</p>
+
+                <a href="./movie-list.html" class="sidebar-link" menu-close>
+                    Action</a>
+                <a href="./movie-list.html" class="sidebar-link" menu-close>
+                    Horror</a>
+                <a href="./movie-list.html" class="sidebar-link" menu-close>
+                    Comeady</a>
+                <a href="./movie-list.html" class="sidebar-link" menu-close>
+                    Adventure</a>
+                <a href="./movie-list.html" class="sidebar-link" menu-close>
+                    Drame</a>
+                <a href="./movie-list.html" class="sidebar-link" menu-close>
+                    Sci-Fi</a>
+
+
+            </div>
+            <div class="sidebar-list">
+
+                <p class="title">Language</p>
+
+                <a href="./movie-list.html" class="sidebar-link" menu-close>
+                    English</a>
+                <a href="./movie-list.html" class="sidebar-link" menu-close>
+                    Hindi</a>
+                <a href="./movie-list.html" class="sidebar-link" menu-close>
+                    Bangali</a>
+
+            </div>
+            <div class="sidebar-footer">
+                <p class="copyright">
+                    Copyright 2023 <a href="">Rishabh</a>
+                </p>
+                <img src="./assets/images/tmdb-logo.svg" alt="" width="130" height="17" alt="The movie Database logo">
+            </div>
+        </div>
+    </nav>
+
+    <div class="overlay " overlay menu-toggler></div>
+    <!-- SIDEBAR ENDS HERE -->
+
+    <article class="container" page-content>
+
+     
+        <!-- MOVIE LIST -->
+        <section class="movie-list genre-list">
+
+            <div class="title-wrapper">
+                <h1 class="heading">All Fantasy Movies</h1>
+            </div>
+
+            <div class="grid-list">
         
-        <script src="" async defer></script>
-    </body>
+                    <div class="movie-card">
+                        <figure class="poster-box card-banner">
+                            <img class="img-cover" src="./assets/images/slider-control.jpg"
+                                alt="Puss in Boots: The Last Wish">
+                        </figure>
+
+                        <h4 class="title">Puss in Boots: The Last Wish</h4>
+
+                        <div class="meta-list">
+                            <div class="meta-item">
+                                <img src="./assets/images/star.png" alt="" width="20" height="20" loading="lazy">
+
+                                <span class="span">8.4</span>
+                            </div>
+
+                            <div class="card-badge">2022</div>
+                        </div>
+
+                        <a href="./detail.html" class="card-btn" title="Puss in Boots: The Last Wish"></a>
+
+                    </div>
+                    <div class="movie-card">
+                        <figure class="poster-box card-banner">
+                            <img class="img-cover" src="./assets/images/slider-control.jpg"
+                                alt="Puss in Boots: The Last Wish">
+                        </figure>
+
+                        <h4 class="title">Puss in Boots: The Last Wish</h4>
+
+                        <div class="meta-list">
+                            <div class="meta-item">
+                                <img src="./assets/images/star.png" alt="" width="20" height="20" loading="lazy">
+
+                                <span class="span">8.4</span>
+                            </div>
+
+                            <div class="card-badge">2022</div>
+                        </div>
+
+                        <a href="./detail.html" class="card-btn" title="Puss in Boots: The Last Wish"></a>
+
+                    </div>
+                    <div class="movie-card">
+                        <figure class="poster-box card-banner">
+                            <img class="img-cover" src="./assets/images/slider-control.jpg"
+                                alt="Puss in Boots: The Last Wish">
+                        </figure>
+
+                        <h4 class="title">Puss in Boots: The Last Wish</h4>
+
+                        <div class="meta-list">
+                            <div class="meta-item">
+                                <img src="./assets/images/star.png" alt="" width="20" height="20" loading="lazy">
+
+                                <span class="span">8.4</span>
+                            </div>
+
+                            <div class="card-badge">2022</div>
+                        </div>
+
+                        <a href="./detail.html" class="card-btn" title="Puss in Boots: The Last Wish"></a>
+
+                    </div>
+                    <div class="movie-card">
+                        <figure class="poster-box card-banner">
+                            <img class="img-cover" src="./assets/images/slider-control.jpg"
+                                alt="Puss in Boots: The Last Wish">
+                        </figure>
+
+                        <h4 class="title">Puss in Boots: The Last Wish</h4>
+
+                        <div class="meta-list">
+                            <div class="meta-item">
+                                <img src="./assets/images/star.png" alt="" width="20" height="20" loading="lazy">
+
+                                <span class="span">8.4</span>
+                            </div>
+
+                            <div class="card-badge">2022</div>
+                        </div>
+
+                        <a href="./detail.html" class="card-btn" title="Puss in Boots: The Last Wish"></a>
+
+                    </div>
+                    <div class="movie-card">
+                        <figure class="poster-box card-banner">
+                            <img class="img-cover" src="./assets/images/slider-control.jpg"
+                                alt="Puss in Boots: The Last Wish">
+                        </figure>
+
+                        <h4 class="title">Puss in Boots: The Last Wish</h4>
+
+                        <div class="meta-list">
+                            <div class="meta-item">
+                                <img src="./assets/images/star.png" alt="" width="20" height="20" loading="lazy">
+
+                                <span class="span">8.4</span>
+                            </div>
+
+                            <div class="card-badge">2022</div>
+                        </div>
+
+                        <a href="./detail.html" class="card-btn" title="Puss in Boots: The Last Wish"></a>
+
+                    </div>
+        
+            </div>
+
+            <button class="btn load-more ">
+                Load More
+            </button>
+
+        </section>
+
+    </article>
+
+</body>
+
 </html>
