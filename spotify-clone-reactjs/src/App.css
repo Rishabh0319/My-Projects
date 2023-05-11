@@ -18,6 +18,8 @@ li {
   text-decoration: none;
 }
 
+/* ******** LOGIN PAGE DESIGN STARTS ******** */
+
 .login {
   display: flex;
   flex-direction: column;
@@ -45,10 +47,61 @@ li {
   margin-top: 5rem;
 }
 
-.login h4
-{
+.login h4 {
   color: #fff;
   font-size: 1rem;
   font-weight: 200;
   margin: 1rem 0 2rem 0;
 }
+
+/* ******** LOGIN PAGE DESIGN ENDS ******** */
+
+
+
+
+
+/* ******** PAGE LAYOUT DESIGN STARTS ******** */
+
+.container {
+  max-width: 100vw;
+  max-height: 100vh;
+  overflow: hidden;
+  display: grid;
+  grid-template-rows: 85vh 15vh;
+}
+
+.container .spotify__body {
+  display: grid;
+  grid-template-columns: 15vw 85vw;
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(transparent, rgba(0, 0, 0, 1));
+  background-color: rgb(32, 87, 100);
+}
+
+.spotify__body .body {
+  height: 100%;
+  width: 100%;
+  overflow: auto;
+}
+
+/* ******** SIDEVAR DESIGN STARTS ******** */
+
+.sidebar-container {
+  background-color: #000;
+}
+
+/* ******** SIDEVAR DESIGN ENDS ******** */
+
+
+/* ******** FOOTER DESIGN STARTS ******** */
+
+.footer-container {
+  background-color: #181818;
+  height: 100%;
+}
+
+/* ******** FOOTER DESIGN ENDS ******** */
+
+
+/* ******** PAGE LAYOUT DESIGN ENDS ******** */
