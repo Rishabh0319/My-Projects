@@ -203,17 +203,26 @@ ul li:hover {
 /* ******** Navbar DESIGN STARTS ******** */
 
 .navbar-container {
-  border: 1px solid red;
+  /* border: 1px solid red; */
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 2rem;
-  height: 15vh;
+  height: 20vh;
   position: sticky;
   top: 0;
   transition: 0.3s ease-in-out;
-  background-color: none;
+  /* background-color: ${({navBackground}) => navBackground ? "rgba(0,0,0,0.7)" : "none"}; */
 }
+
+
+/* .navbar-container[navBackground="true"] {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.navbar-container[navBackground="false"] {
+  background-color: none;
+} */
 
 .navbar-container .search-bar {
   background-color: #fff;
@@ -233,13 +242,11 @@ ul li:hover {
   /* border: 1px solid green; */
 }
 
-.search-bar input:focus
-{
+.search-bar input:focus {
   outline: none;
-} 
+}
 
-.avatar
-{
+.avatar {
   /* border: 1px solid red; */
   background-color: black;
   padding: 0.3rem 0.4rem;
@@ -250,8 +257,7 @@ ul li:hover {
   align-items: center;
 }
 
-.avatar a
-{
+.avatar a {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -261,8 +267,7 @@ ul li:hover {
   font-weight: bold;
 }
 
-.avatar a svg
-{
+.avatar a svg {
   font-size: 1.3rem;
   background-color: #282828;
   padding: 0.2rem;
@@ -271,6 +276,96 @@ ul li:hover {
 }
 
 /* ******** Navbar DESIGN ENDS ******** */
+
+
+/* ******** BODY DESIGN STARTS ******** */
+
+.body-container {
+  /* border: 1px solid red; */
+
+}
+
+.body-container .playlist {
+  /* border: 1px solid green; */
+  margin: 0 2rem;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  margin-top: .5rem;
+}
+
+.body-container .playlist .image img {
+  height: 15rem;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+}
+
+.body-container .details {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  color: #e0dede
+}
+
+.details .title {
+  color: white;
+  font-size: 4rem;
+}
+
+
+/* .body-container .list {} */
+
+.body-container .list .header__row {
+  display: grid;
+  grid-template-columns: 0.3fr 3fr 2fr 0.1fr;
+  color: #dddcdc;
+  margin: 1rem 0 0 0;
+  position: sticky;
+  top: 12vh;
+  padding: 1rem 3rem;
+  transition: 0.3s ease-in-out;
+  /* border: 1px solid green; */
+}
+
+.body-container .tracks {
+  margin: 0 2rem;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 5rem;
+
+}
+
+.body-container .tracks .row {
+  padding: 0.5rem 1rem;
+  display: grid;
+  grid-template-columns: 0.3fr 3.1fr 1.9fr 0.1fr;
+}
+
+.body-container .tracks .row:hover {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.body-container .tracks .col {
+  display: flex;
+  align-items: center;
+  color: #dddcdc;
+}
+
+.body-container .tracks .col img {
+  height: 40px;
+}
+
+.body-container .tracks .detail {
+  display: flex;
+  gap: 1rem;
+}
+
+.body-container .tracks .detail .info {
+  display: flex;
+  flex-direction: column;
+}
+
+
+/* ******** BODY DESIGN ENDS ******** */
 
 
 /* ******** FOOTER DESIGN STARTS ******** */
