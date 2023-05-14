@@ -8,7 +8,6 @@ const Navbar = ({ navBackground }) => {
   const [{ userInfo }] = useStateProvider();
 
   // MY LOGIC (GUGAD)
-
   const [changeNavBGColor, setChangeNavBackgroundColor] = useState({backgroundColor: 'none'})
 
   useEffect(() => {
@@ -24,15 +23,13 @@ const Navbar = ({ navBackground }) => {
     }
   }, [navBackground])
 
-  
-
   // MY LOGIC (GUGAD)
 
   return (
     <div className='navbar-container' style={changeNavBGColor} navBackground={navBackground}>
       <div className="search-bar">
         <FaSearch />
-        <input type='text' placeholder='Artistes, songs, or podcasts' />
+        <input type='text' placeholder='Artists, songs, or podcasts' />
       </div>
       <div className="avatar">
         <a href="#">

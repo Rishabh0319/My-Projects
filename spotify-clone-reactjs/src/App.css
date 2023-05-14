@@ -68,9 +68,12 @@ li {
   overflow: hidden;
   display: grid;
   grid-template-rows: 85vh 15vh;
+  /* border: 1px solid yellow; */
 }
 
+
 .container .spotify__body {
+  /* border: 1px solid orangered; */
   display: grid;
   grid-template-columns: 15vw 85vw;
   height: 100%;
@@ -80,10 +83,21 @@ li {
 }
 
 .spotify__body .body {
+  /* border: 1px solid greenyellow; */
   height: 100%;
   width: 100%;
   overflow: auto;
 }
+
+.spotify__body .body::-webkit-scrollbar {
+  width: 0.4rem;
+}
+
+.spotify__body .body::-webkit-scrollbar-thumb {
+  background-color: rgba(255, 255, 255, 0.6);
+  border-radius: 1rem;
+}
+
 
 /* ******** SIDEBAR DESIGN STARTS ******** */
 
@@ -216,14 +230,6 @@ ul li:hover {
 }
 
 
-/* .navbar-container[navBackground="true"] {
-  background-color: rgba(0, 0, 0, 0.7);
-}
-
-.navbar-container[navBackground="false"] {
-  background-color: none;
-} */
-
 .navbar-container .search-bar {
   background-color: #fff;
   width: 30%;
@@ -232,7 +238,8 @@ ul li:hover {
   display: flex;
   align-items: center;
   gap: 0.5rem;
-
+  /* border: 1px solid blue; */
+  margin-bottom: .8rem;
 }
 
 .search-bar input {
@@ -255,6 +262,7 @@ ul li:hover {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-bottom: .8rem;
 }
 
 .avatar a {
@@ -320,7 +328,7 @@ ul li:hover {
   color: #dddcdc;
   margin: 1rem 0 0 0;
   position: sticky;
-  top: 12vh;
+  top: 13vh;
   padding: 1rem 3rem;
   transition: 0.3s ease-in-out;
   /* border: 1px solid green; */

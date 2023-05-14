@@ -1,12 +1,33 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 import { AiFillClockCircle } from 'react-icons/ai'
 import { useStateProvider } from '../utils/StateProvider.jsx';
 import axios from 'axios';
 import { reducerCases } from '../utils/Constants.js';
 
-const Body = () => {
+const Body = ({ headerBackground }) => {
 
   const [{ token, selectedPlaylistId, selectedPlaylist }, dispatch] = useStateProvider();
+
+
+  // MY HEADER-BG-LOGIC ON SCROLL
+
+  const [changeHeaderColor, setChangeHeaderColor] = useState({ backgroundColor: 'none' });
+
+  useEffect(() => {
+    if (headerBackground) {
+      setChangeHeaderColor({
+        backgroundColor: '#000000dc'
+      })
+    }
+    if (!headerBackground) {
+      setChangeHeaderColor({
+        backgroundColor: 'transparent'
+      })
+    }
+  })
+
+  // MY HEADER-BG-LOGIC ON SCROLL
+
 
   useEffect(() => {
     const getInitialPlaylist = async () => {
@@ -47,11 +68,17 @@ const Body = () => {
 
   // console.log(selectedPlaylist);  // render data in Body
 
+  const msToMinutesAndSeconds = (ms) => {
+    const minutes = Math.floor(ms/60000);
+    const seconds = ((ms % 60000) / 1000).toFixed(0);
+    return minutes + ":" + (seconds < 10 ? "0" : "") + seconds;
+  }
+
   return (
     <div className='body-container'>
       {selectedPlaylist && (
         <>
-          <div className="playlist">
+          <div className="playlist" >
             <div className="image">
               <img src={selectedPlaylist.image} alt="selectedPlaylist" />
             </div>
@@ -62,7 +89,7 @@ const Body = () => {
             </div>
           </div>
           <div className="list">
-            <div className="header__row">
+            <div className="header__row" style={changeHeaderColor}>
               <div className="col">
                 <span>#</span>
               </div>
@@ -106,7 +133,7 @@ const Body = () => {
                         <span>{album}</span>
                       </div>
                       <div className="col">
-                        <span>{duration}</span>
+                        <span>{msToMinutesAndSeconds(duration)}</span>
                       </div>
                     </div>
                   )
