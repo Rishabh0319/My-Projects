@@ -24,7 +24,7 @@ const Body = ({ headerBackground }) => {
         backgroundColor: 'transparent'
       })
     }
-  })
+  }, [headerBackground])
 
   // MY HEADER-BG-LOGIC ON SCROLL
 
@@ -116,7 +116,8 @@ const Body = ({ headerBackground }) => {
                   track_number,
                 }, index) => {
                   return (
-                    <div className="row" key={id}>
+                    // key={id}
+                    <div className="row" >
                       <div className="col">
                         <span>{index + 1}</span>
                       </div>

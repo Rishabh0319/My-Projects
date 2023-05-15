@@ -15,11 +15,11 @@ const Navbar = ({ navBackground }) => {
       setChangeNavBackgroundColor({
         backgroundColor: 'rgba(0, 0, 0, 0.7)'
       })
-      console.log("color is Change");
+      // console.log("color is Change");
     }
     if(!navBackground) {
       setChangeNavBackgroundColor({backgroundColor: 'transparent'})
-      console.log("color is Reset");
+      // console.log("color is Reset");
     }
   }, [navBackground])
 

@@ -1,8 +1,11 @@
 import React from 'react'
+import CurrentTrack from './CurrentTrack'
 
 const Footer = () => {
   return (
-    <div className='footer-container'>Footer</div>
+    <div className='footer-container'>
+      <CurrentTrack/>
+    </div>
   )
 }
 
