@@ -397,6 +397,30 @@ ul li:hover {
   
 }
 
+.currenttrack-container .track
+{
+   display: flex;
+   align-items: center;
+   gap: 1rem;
+}
+
+.track .track__info
+{
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+
+.track .track__info h4
+{
+   color: #ffffff;
+}
+
+.track .track__info h6
+{
+   color: #b3b3b3;
+}
+
 /* ******** CURRENT TRACK DESIGN ENDS ******** */
 
 /* ******** FOOTER DESIGN ENDS ******** */
