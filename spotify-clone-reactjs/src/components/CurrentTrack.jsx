@@ -39,7 +39,7 @@ const CurrentTrack = () => {
 
         getCurrentTrack();
 
-    }, [token, dispatch]);
+    }, [token, dispatch,currentlyPlaying]);
 
     return (
         <div className='currenttrack-container'>
