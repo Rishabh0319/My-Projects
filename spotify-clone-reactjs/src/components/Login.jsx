@@ -17,7 +17,6 @@ const Login = () => {
             'user-top-read',
             'user-read-recently-played',
             'playlist-read-private',   // access to current user Playlist
-            'user-read-currently-playing'
         ];
 
         window.location.href = `${apiUrl}?client_id=${clientId}&redirect_uri=${redirectUrl}&scope=${scope.join(

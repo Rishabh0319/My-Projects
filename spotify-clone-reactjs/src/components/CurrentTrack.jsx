@@ -10,39 +10,36 @@ const CurrentTrack = () => {
     useEffect(() => {
 
         const getCurrentTrack = async () => {
-            try {
-                const response = await axios.get('https://api.spotify.com/v1/me/player/currently-playing', {
-                    headers: {
-                        'Authorization': 'Bearer ' + token,
-                        'Content-Type': 'application/json'
-                    }
-                });
-
-                // console.log(response);
-                if (response.status === 200) {
-                    const { item } = response.data;
-                    const currentlyPlaying = {
-                        id: item.id,
-                        name: item.name,
-                        artists: item.artists.map((artist) => artist.name),
-                        image: item.album.images[2].url,
-                    }
-                    console.log(currentlyPlaying);
-
-                    // Dispatch the data or perform any other actions with the trackData
-                    dispatch({ type: reducerCases.SET_PLAYING, currentlyPlaying })
-
-                } else {
-                    console.log('No track currently playing');
+            const response = await axios.get('https://api.spotify.com/v1/me/player/currently-playing', {
+                headers: {
+                    'Authorization': 'Bearer ' + token,
+                    'Content-Type': 'application/json'
                 }
-            } catch (error) {
-                console.error('Error retrieving currently playing track:', error);
+            });
+
+            // console.log(response);
+            if (response.status === 200) {
+                const { item } = response.data;
+                const currentlyPlaying = {
+                    id: item.id,
+                    name: item.name,
+                    artists: item.artists.map((artist) => artist.name),
+                    image: item.album.images[2].url,
+                }
+                // console.log(currentlyPlaying, "bar bar");
+
+                // Dispatch the data or perform any other actions with the trackData
+                dispatch({ type: reducerCases.SET_PLAYING, currentlyPlaying })
+
+            } else {
+                console.log('No track currently playing');
             }
+
         };
 
         getCurrentTrack();
 
-    });
+    }, [token, dispatch]);
 
     return (
         <div className='currenttrack-container'>

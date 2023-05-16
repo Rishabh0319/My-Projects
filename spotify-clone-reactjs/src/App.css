@@ -392,35 +392,64 @@ ul li:hover {
 
 /* ******** CURRENT TRACK DESIGN STARTS ******** */
 
-.currenttrack-container
-{
-  
+.currenttrack-container {}
+
+.currenttrack-container .track {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
 }
 
-.currenttrack-container .track
-{
-   display: flex;
-   align-items: center;
-   gap: 1rem;
-}
-
-.track .track__info
-{
+.track .track__info {
   display: flex;
   flex-direction: column;
   gap: 0.3rem;
 }
 
-.track .track__info h4
-{
-   color: #ffffff;
+.track .track__info h4 {
+  color: #ffffff;
 }
 
-.track .track__info h6
-{
-   color: #b3b3b3;
+.track .track__info h6 {
+  color: #b3b3b3;
 }
 
 /* ******** CURRENT TRACK DESIGN ENDS ******** */
+
+
+
+/* ******** PLAYER-CONTROLE DESIGN STARTS ******** */
+
+.player-controle-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+
+}
+
+.player-controle-container svg {
+  color: #b3b3b3;
+  transition: 0.2s ease-in-out;
+}
+
+.player-controle-container svg:hover {
+  color: #fff;
+}
+
+.player-controle-container .state {}
+
+.player-controle-container .state svg {
+  color: #fff;
+}
+
+.player-controle-container .previous,
+.next,
+.state {
+  font-size: 2rem;
+}
+
+
+/* ******** PLAYER-CONTROLE DESIGN ENDS ******** */
 
 /* ******** FOOTER DESIGN ENDS ******** */
