@@ -450,6 +450,26 @@ ul li:hover {
 }
 
 
+/* ******** VOLUME-CONTROLE DESIGN STARTS ******** */
+
+
+
+/* ******** VOLUME-CONTROLE DESIGN ENDS ******** */
+
+.volume-container
+{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.volume-container input
+{
+  width: 15rem;
+  border-radius: 2rem;
+  height: 0.5rem;
+}
+
 /* ******** PLAYER-CONTROLE DESIGN ENDS ******** */
 
 /* ******** FOOTER DESIGN ENDS ******** */
