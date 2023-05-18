@@ -5,7 +5,7 @@ const Login = () => {
     // function call when click to Connect to Spotify
     const handleClick = () => {
         const clientId = 'ed3be913228f451caa7c49263ca62d70';
-        const redirectUrl = 'http://localhost:3000/';
+        const redirectUrl = 'https://spotify-clone-by-rishabhtripathi.netlify.app/';
         const apiUrl = 'https://accounts.spotify.com/authorize';
         const scope = [
             'user-read-email',
