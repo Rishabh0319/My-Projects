@@ -73,12 +73,10 @@ function createSongCardDOM(songsCardDataRec) {
 
 // MUSICPLAYER FUNCTIONS
 
-function playSong(songCardEl)
-{
-   console.log(songCardEl.dataset.songobj);
+function playSong(songCardEl) {
+  console.log(songCardEl.dataset.songobj);
 }
 
-function setCurrentSong()
-{
+function setCurrentSong() {
 
 }

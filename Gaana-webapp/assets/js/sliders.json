@@ -274,7 +274,7 @@
             "sliderName": "Top Charts",
             "songsCards": [
                 {
-                    "id": 5,
+                    "id": 0,
                     "song_name": "Don’t Get Too Close",
                     "album_name": "Warner Music Group",
                     "singers": "Skrillex, Bobby Raps, PinkPantheress",
@@ -284,7 +284,7 @@
                     "duration": "3 min 35 sec"
                 },
                 {
-                    "id": 6,
+                    "id": 1,
                     "song_name": "Main Khiladi",
                     "album_name": "Main Khiladi Song | Udit Narayan | Main Khiladi (From 'Selfiee')",
                     "singers": "Udit Narayan, Abhijeet Bhattacharya, Tanishk Bagch",
@@ -294,7 +294,7 @@
                     "duration": "3 min 07 sec"
                 },
                 {
-                    "id": 7,
+                    "id": 2,
                     "song_name": "surrounded by hounds and serpents",
                     "album_name": "surrounded by hounds and serpents | Isaiah Faber | Powfu",
                     "singers": "Isaiah Faber, Anthony Tubbs, Jeremy Fedryk",
@@ -304,7 +304,7 @@
                     "duration": "3 min 24 sec"
                 },
                 {
-                    "id": 8,
+                    "id": 3,
                     "song_name": "Fly Fly Away",
                     "album_name": "Fly Fly Away Song | Shekhar Ravjiani",
                     "singers": "Shekhar Ravjiani, Shivam Sengupta, Anuj Danait",
@@ -314,7 +314,7 @@
                     "duration": "4 min 04 sec"
                 },
                 {
-                    "id": 9,
+                    "id": 4,
                     "song_name": "Piya Re Song | पिया रे",
                     "album_name": "Piya Re Song | Darshan Raval | पिया रे",
                     "singers": "Darshan Raval",
@@ -324,7 +324,7 @@
                     "duration": "3 min 55 sec"
                 },
                 {
-                    "id": 10,
+                    "id": 5,
                     "song_name": "Besharam Rang",
                     "album_name": "Besharam Rang (From 'Pathaan')",
                     "singers": "Vishal-Shekhar, Shilpa Rao, Caralisa Monteiro",
@@ -332,6 +332,56 @@
                     "song_source": "",
                     "release_date": "2022",
                     "duration": "4 min 18 sec"
+                },
+                {
+                    "id": 6,
+                    "song_name": "Top 50 Hindi Songs",
+                    "album_name": "Hindi Top 50 Songs",
+                    "singers": "ARman Malik, Arijit Singh, Sonu Nigam, Benny Dayal",
+                    "image_source": "https://a10.gaanacdn.com/gn_pl_img/playlists/P7m3GNKqxo/7m3GQwOybq/size_l_1672993680.webp",
+                    "song_source": "",
+                    "release_date": "2023",
+                    "duration": "50 min 8 sec"
+                },
+                {
+                    "id": 7,
+                    "song_name": "Top 50 Telugu Songs",
+                    "album_name": "",
+                    "singers": "",
+                    "image_source": "https://a10.gaanacdn.com/gn_pl_img/playlists/Rz4W8vKxD5/z4W850xvbx/size_l_1676879293.webp",
+                    "song_source": "",
+                    "release_date": "",
+                    "duration": "45 min 8 sec"
+                },
+                {
+                    "id": 8,
+                    "song_name": "Top 50 Hindi Dance Songs",
+                    "album_name": "",
+                    "singers": "",
+                    "image_source": "https://a10.gaanacdn.com/gn_pl_img/playlists/Bp1bAnK029/p1bApy9XW0/size_l_1658563170.webp",
+                    "song_source": "",
+                    "release_date": "",
+                    "duration": "5 min 8 sec"
+                },
+                {
+                    "id": 9,
+                    "song_name": "Top 50 Haryanvi Songs",
+                    "album_name": "",
+                    "singers": "",
+                    "image_source": "https://a10.gaanacdn.com/gn_pl_img/playlists/oAJbDElKnL/JbDAjeGvKn/size_l_1665158546.webp",
+                    "song_source": "",
+                    "release_date": "",
+                    "duration": "39 min 15 sec"
+                },
+                {
+                    "id": 10,
+                    "song_name": "Rajinikanth Top 50 Songs",
+                    "album_name": "",
+                    "singers": "",
+                    "image_source": "https://a10.gaanacdn.com/gn_pl_img/playlists/7rVW1Rbk56/VW1e6dAOWk/size_l_1620046734.webp",
+                    "song_source": "",
+                    "release_date": "",
+                    "duration": "5 min 8 sec"
                 }
             ]
         },
@@ -339,21 +389,101 @@
             "sliderName": "Top Searched Artists",
             "songsCards": [
                 {
-                    "id": "",
-                    "song_name": "",
+                    "id": 0,
+                    "song_name": "Best of Jubin Nautiyal Songs",
                     "album_name": "",
                     "singers": "",
-                    "image_source": "",
+                    "image_source": "https://a10.gaanacdn.com/gn_pl_img/playlists/4Z9bqZoKyQ/9bqqJeOPby/size_l_1652464349.webp",
                     "song_source": "",
                     "release_date": "",
                     "duration": ""
                 },
                 {
-                    "id": "",
-                    "song_name": "",
+                    "id": 1,
+                    "song_name": "Best of Neha Kakkar Songs",
                     "album_name": "",
                     "singers": "",
-                    "image_source": "",
+                    "image_source": "https://a10.gaanacdn.com/gn_pl_img/playlists/9En3pqeWXD/n3pkoxO6KX/size_l_1652985105.webp",
+                    "song_source": "",
+                    "release_date": "",
+                    "duration": ""
+                },
+                {
+                    "id": 2,
+                    "song_name": "Best of Ed Sheeran Songs",
+                    "album_name": "",
+                    "singers": "",
+                    "image_source": "https://a10.gaanacdn.com/gn_pl_img/playlists/D0PKLqr3Gl/0PKLjDk6WG/size_l_1655962311.webp",
+                    "song_source": "",
+                    "release_date": "",
+                    "duration": ""
+                },
+                {
+                    "id": 3,
+                    "song_name": "Best of Badshah Songs",
+                    "album_name": "",
+                    "singers": "",
+                    "image_source": "https://a10.gaanacdn.com/gn_pl_img/playlists/g4w3vr3jJB/w3vwAjXvWj/size_l_1652464379.webp",
+                    "song_source": "",
+                    "release_date": "",
+                    "duration": ""
+                },
+                {
+                    "id": 4,
+                    "song_name": "Best of Justin Bieber Songs",
+                    "album_name": "",
+                    "singers": "",
+                    "image_source": "https://a10.gaanacdn.com/gn_pl_img/playlists/koMWQBbqLE/oMWQBaYAbq/size_l_1653642199.webp",
+                    "song_source": "",
+                    "release_date": "",
+                    "duration": ""
+                },
+                {
+                    "id": 5,
+                    "song_name": "Best of Darshan Raval Songs",
+                    "album_name": "",
+                    "singers": "",
+                    "image_source": "https://a10.gaanacdn.com/gn_pl_img/playlists/zLp36PvbrG/p36V1R6R3r/size_l_1652464362.webp",
+                    "song_source": "",
+                    "release_date": "",
+                    "duration": ""
+                },
+                {
+                    "id": 6,
+                    "song_name": "Best of Arijit Singh Songs",
+                    "album_name": "",
+                    "singers": "",
+                    "image_source": "https://a10.gaanacdn.com/gn_pl_img/playlists/zLp36v3rGe/Lp36mQk0Kr/size_l_1652464449.webp",
+                    "song_source": "",
+                    "release_date": "",
+                    "duration": ""
+                },
+                {
+                    "id": 7,
+                    "song_name": "Best of A.R. Rahman Songs",
+                    "album_name": "",
+                    "singers": "",
+                    "image_source": "https://a10.gaanacdn.com/gn_pl_img/playlists/jBr3gybR1m/Br3gQB4NbR/size_l_1652464418.webp",
+                    "song_source": "",
+                    "release_date": "",
+                    "duration": ""
+                },
+                {
+                    "id": 8,
+                    "song_name": "Best of Camila Cabello Songs",
+                    "album_name": "",
+                    "singers": "",
+                    "image_source": "https://a10.gaanacdn.com/gn_pl_img/playlists/dwN39y83DP/N392Zrz5WD/size_l_1646726259.webp",
+                    "song_source": "",
+                    "release_date": "",
+                    "duration": ""
+                },
+                {
+                    "id": 9,
+                    "song_name": "Best Of Charlie Puth Songs",
+                    "album_name": "",
+                    "singers": "",
+                    "image_source": "https://a10.gaanacdn.com/gn_pl_img/playlists/VdNW0JMKo5/NW0xOxrOWo/size_l_1570437416.webp",
                     "song_source": "",
                     "release_date": "",
                     "duration": ""
@@ -364,21 +494,81 @@
             "sliderName": "Top Playlists",
             "songsCards": [
                 {
-                    "id": "",
-                    "song_name": "",
+                    "id": 0,
+                    "song_name": "Heartbreak Hits",
                     "album_name": "",
                     "singers": "",
-                    "image_source": "",
+                    "image_source": "https://a10.gaanacdn.com/gn_pl_img/playlists/d41WjznWPL/41WjdzEeKP/size_m_1651060133.jpg",
                     "song_source": "",
                     "release_date": "",
                     "duration": ""
                 },
                 {
-                    "id": "",
-                    "song_name": "",
+                    "id": 1,
+                    "song_name": "Viral Hits - English",
                     "album_name": "",
                     "singers": "",
-                    "image_source": "",
+                    "image_source": "https://a10.gaanacdn.com/gn_pl_img/playlists/9En3pqeWXD/n3pd2GQ03X/size_m_1678951274.jpg",
+                    "song_source": "",
+                    "release_date": "",
+                    "duration": ""
+                },
+                {
+                    "id": 2,
+                    "song_name": " Ultimate Drive",
+                    "album_name": "",
+                    "singers": "",
+                    "image_source": "https://a10.gaanacdn.com/gn_pl_img/playlists/R7vKX66Wmr/7vKXyl203m/size_m_1663767877.jpg",
+                    "song_source": "",
+                    "release_date": "",
+                    "duration": ""
+                },
+                {
+                    "id": 3,
+                    "song_name": "Dance 101 Songs",
+                    "album_name": "",
+                    "singers": "",
+                    "image_source": "https://a10.gaanacdn.com/gn_pl_img/playlists/Oxd3xP3gVY/d3xGYmV5Kg/size_l_1677059935.webp",
+                    "song_source": "",
+                    "release_date": "",
+                    "duration": ""
+                },
+                {
+                    "id": 4,
+                    "song_name": "2000s Happy Hits",
+                    "album_name": "",
+                    "singers": "",
+                    "image_source": "https://a10.gaanacdn.com/gn_pl_img/playlists/2lV3d1WRgB/V3dXkyDO3R/size_m_1638958397.jpg",
+                    "song_source": "",
+                    "release_date": "",
+                    "duration": ""
+                },
+                {
+                    "id": 5,
+                    "song_name": "International Pop Hit's",
+                    "album_name": "",
+                    "singers": "",
+                    "image_source": "https://a10.gaanacdn.com/gn_pl_img/playlists/oAJbDlbnL8/JbD7mmxqWn/size_m_1677485855.jpg",
+                    "song_source": "",
+                    "release_date": "",
+                    "duration": ""
+                },
+                {
+                    "id": 6,
+                    "song_name": "EDM Hits",
+                    "album_name": "",
+                    "singers": "",
+                    "image_source": "https://a10.gaanacdn.com/gn_pl_img/playlists/mGjKrP1W6z/GjKrJ5AEK6/size_m_1677485985.jpg",
+                    "song_source": "",
+                    "release_date": "",
+                    "duration": ""
+                },
+                {
+                    "id": 7,
+                    "song_name": "90s Ka Solid Romance",
+                    "album_name": "",
+                    "singers": "",
+                    "image_source": "https://a10.gaanacdn.com/gn_pl_img/playlists/DwPKOxB3qV/PKOk0wZaKq/size_m_1664444109.jpg",
                     "song_source": "",
                     "release_date": "",
                     "duration": ""
@@ -389,21 +579,91 @@
             "sliderName": "Popular In Hindi",
             "songsCards": [
                 {
-                    "id": "",
-                    "song_name": "",
+                    "id": 0,
+                    "song_name": "Number Likh",
                     "album_name": "",
                     "singers": "",
-                    "image_source": "",
+                    "image_source": "https://a10.gaanacdn.com/gn_img/albums/a7LWBzWzXA/LWBkBlQzbz/size_m.webp",
                     "song_source": "",
                     "release_date": "",
                     "duration": ""
                 },
                 {
-                    "id": "",
-                    "song_name": "",
+                    "id": 1,
+                    "song_name": "Ranjha",
                     "album_name": "",
                     "singers": "",
-                    "image_source": "",
+                    "image_source": "https://a10.gaanacdn.com/gn_img/song/XYybzNrb2g/ybzEg61rW2/size_m_1628084846.webp",
+                    "song_source": "",
+                    "release_date": "",
+                    "duration": ""
+                },
+                {
+                    "id": 2,
+                    "song_name": "Param Sundari",
+                    "album_name": "",
+                    "singers": "",
+                    "image_source": "https://a10.gaanacdn.com/gn_img/albums/2lV3dl13Rg/V3dldLBE3R/size_m.webp",
+                    "song_source": "",
+                    "release_date": "",
+                    "duration": ""
+                },
+                {
+                    "id": 3,
+                    "song_name": "Kanta Laga",
+                    "album_name": "",
+                    "singers": "",
+                    "image_source": "https://a10.gaanacdn.com/gn_img/albums/oAJbDElKnL/JbDEgg60Kn/size_m.webp",
+                    "song_source": "",
+                    "release_date": "",
+                    "duration": ""
+                },
+                {
+                    "id": 4,
+                    "song_name": "Mann Bharryaa 2.0",
+                    "album_name": "",
+                    "singers": "",
+                    "image_source": "https://a10.gaanacdn.com/gn_img/song/7rVW1Rbk56/VW1L7Rxg3k/size_m_1628958702.webp",
+                    "song_source": "",
+                    "release_date": "",
+                    "duration": ""
+                },
+                {
+                    "id": 5,
+                    "song_name": "Raataan Lambiyan",
+                    "album_name": "",
+                    "singers": "",
+                    "image_source": "https://a10.gaanacdn.com/gn_img/song/lJvKa56KDV/vKa91Z1RKD/size_m_1628085090.webp",
+                    "song_source": "",
+                    "release_date": "",
+                    "duration": ""
+                },
+                {
+                    "id": 6,
+                    "song_name": "Filhaal2 Mohabbat",
+                    "album_name": "",
+                    "singers": "",
+                    "image_source": "https://a10.gaanacdn.com/gn_img/albums/qaLKY623pO/LKY69RVx3p/size_m.webp",
+                    "song_source": "",
+                    "release_date": "",
+                    "duration": ""
+                },
+                {
+                    "id": 7,
+                    "song_name": "Kabhii Tumhhe",
+                    "album_name": "",
+                    "singers": "",
+                    "image_source": "https://a10.gaanacdn.com/gn_img/song/21GWwR3pkg/GWwBLwrD3p/size_m_1629370808.webp",
+                    "song_source": "",
+                    "release_date": "",
+                    "duration": ""
+                },
+                {
+                    "id": 8,
+                    "song_name": "Mujhe Kaise Pata Na Chala",
+                    "album_name": "",
+                    "singers": "",
+                    "image_source": "https://a10.gaanacdn.com/gn_img/song/Bp1bAynb02/1bADxownW0/size_m_1543830076.webp",
                     "song_source": "",
                     "release_date": "",
                     "duration": ""
