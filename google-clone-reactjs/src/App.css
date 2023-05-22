@@ -8,18 +8,21 @@
 /* ***** HOME PAGE DESIGN STARTS HERE ***** */
 
 .home-cont {
-  border: 1px solid red;
+  /* border: 1px solid red; */
   width: 100vw;
   height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .home-cont .home-main {
-  border: 1px solid green;
+  /* border: 1px solid green; */
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 80%;
+  height: 70%;
 }
 
 .home-main .search-buttons-frame {
@@ -42,63 +45,6 @@
 
   /* box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; */
 }
-
-
-/* ***** SEARCHBAR DESIGN STARTS HERE ***** */
-
-.searchBox {
-  height: 46px;
-  width: 600px;
-  border: 1px solid #dfe1e5;
-  background-color: #fff;
-  text-align: center;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  border-radius: 1.5rem;
-  overflow: hidden;
-  padding-left: 0.5rem;
-  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-}
-
-.searchBox input {
-  /* border: 1px solid olivedrab; */
-  height: 100%;
-  width: 80%;
-  border-radius: 1.5rem;
-  border: none;
-  background-color: transparent;
-  font-size: 1rem;
-  padding-left: 0.5rem;
-}
-
-.searchBox input:focus {
-  outline: none;
- 
-}
-
-.searchBox .search-icons-utl{
-   /* border: 1px solid blue; */
-   display: flex;
-   justify-content: center;
-   align-items: center;
-}
-
-.searchBox .search-icons-utl img
-{
-  height: 25px;
-  width: 25px;
-  margin: 0 8px;
-}
-
-/* ***** SEARCHBAR DESIGN ENDS HERE ***** */
-
-
-/* ***** HOME PAGE DESIGN ENDS HERE ***** */
-
-
-
-
 
 
 /* ***** HOMEHEADER DESIGN STARTS HERE ***** */
@@ -157,3 +103,100 @@
 }
 
 /* ***** HOMEHEADER DESIGN ENDS HERE ***** */
+
+
+/* ***** SEARCHBAR DESIGN STARTS HERE ***** */
+
+.searchBox {
+  /* border: 1px solid orangered; */
+  height: 46px;
+  width: 600px;
+  border: 1px solid #dfe1e5;
+  background-color: #fff;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 1.5rem;
+  overflow: hidden;
+  padding-left: 0.5rem;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  margin-top: 1rem;
+}
+
+.searchBox input {
+  /* border: 1px solid olivedrab; */
+  height: 100%;
+  width: 80%;
+  border-radius: 1.5rem;
+  border: none;
+  background-color: transparent;
+  font-size: 1rem;
+  padding-left: 0.5rem;
+}
+
+.searchBox input:focus {
+  outline: none;
+
+}
+
+.searchBox .search-icons-utl {
+  /* border: 1px solid blue; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.searchBox .search-icons-utl img {
+  height: 25px;
+  width: 25px;
+  margin: 0 8px;
+}
+
+/* ***** SEARCHBAR DESIGN ENDS HERE ***** */
+
+
+/* ***** FOOTER DESIGN STARTS HERE ***** */
+
+.footer-cont {
+  background-color: #f2f2f2;
+  /* border: 1px solid red; */
+}
+
+.footer-cont .row-1 {
+  display: flex;
+  padding: 15px 15px;
+  border-bottom: 1px solid #dadce0;
+  /* border: 1px solid greenyellow; */
+}
+
+.footer-cont .row-1 span {
+  color: #70767a;
+}
+
+.footer-cont .row-2 {
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: space-between;
+  padding: 3px 0;
+
+  /* border: 1px solid orangered; */
+}
+
+.footer-cont .row-2 div {
+  display: flex;
+  justify-content: center;
+  padding: 0 0.3rem;
+}
+
+
+.footer-cont .row-2 div span {
+  color: #70757a;
+  font-size: 12px;
+  padding: 10px;
+}
+
+/* ***** FOOTER DESIGN ENDS HERE ***** */
+
+
+/* ***** HOME PAGE DESIGN ENDS HERE ***** */
