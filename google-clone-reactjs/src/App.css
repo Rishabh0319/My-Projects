@@ -200,3 +200,97 @@
 
 
 /* ***** HOME PAGE DESIGN ENDS HERE ***** */
+
+
+
+
+/* ***** SEARCH REASULT PAGE DESIGN STARTS HERE ***** */
+
+.searchreasultheader-cont {
+  padding: 15px;
+  border-bottom: 1px solid #ebebeb;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  background-color: #fff;
+}
+
+.searchreasultheader-cont .inner-div {
+  /* border: 1px solid blue; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.searchreasultheader-cont .inner-div-child {
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.searchreasultheader-cont .inner-div .inner-div-child .SR-header-logo {
+  width: 92px;
+  margin-right: 10px;
+  /* border: 1px solid goldenrod; */
+  margin-bottom: 8px;
+}
+
+.search-reasult-cont {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  border: 1px solid red;
+  justify-content: space-between;
+}
+
+.SRH-menu {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  /* border: 1px solid green; */
+  width: 100%;
+  margin-top: 0.5rem;
+}
+
+.SRH-menu .menu-links {
+  display: flex;
+  align-items: center;
+  padding: 3px;
+  /* color: #5f6368; */
+  cursor: pointer;
+  /* border: 1px solid orangered; */
+  position: relative;
+  margin-left: 5px;
+  justify-content: space-between;
+}
+
+.active-menu
+{
+  /* position: relative; */
+
+  /* border: 1px solid red; */
+  margin-left: 2px;
+}
+
+.active-menu-underline
+{
+  background-color: #1a73e8;
+  height: 3px;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.search-reasult-main {
+  /* border: 1px solid green;  */
+  height: 70%;
+}
+
+
+
+/* ***** SEARCH REASULT PAGE DESIGN ENDS HERE ***** */
