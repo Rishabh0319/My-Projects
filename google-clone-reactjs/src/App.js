@@ -9,7 +9,7 @@ function App() {
       <BrowserRouter>
         <Routes>
            <Route path='/' exact element={<Home/>}/>
-           <Route path='/' element={<SearchReasult/>} />
+           <Route path='/:query/:startIndex' element={<SearchReasult/>} />
         </Routes>
       </BrowserRouter>
     </div>
