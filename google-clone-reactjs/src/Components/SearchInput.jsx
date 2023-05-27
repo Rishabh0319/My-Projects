@@ -8,7 +8,7 @@ import { useNavigate, useParams } from 'react-router-dom';
 const SearchInput = () => {
 
   const { query } = useParams();
-  const [searchQuery, setSearchQuery] = useState(query, "");
+  const [searchQuery, setSearchQuery] = useState(query || "");
   const navigate = useNavigate();
 
   const searchQueryHandler = (event) => {
