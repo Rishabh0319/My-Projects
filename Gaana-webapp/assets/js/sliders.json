@@ -674,21 +674,91 @@
             "sliderName": "Romance",
             "songsCards": [
                 {
-                    "id": "",
-                    "song_name": "",
+                    "id": 0,
+                    "song_name": " Love Hits",
                     "album_name": "",
                     "singers": "",
-                    "image_source": "",
+                    "image_source": "https://a10.gaanacdn.com/gn_pl_img/playlists/kGxbnw0Ky4/xbnwAyeVKy/size_m_1664444046.webp",
                     "song_source": "",
                     "release_date": "",
                     "duration": ""
                 },
                 {
-                    "id": "",
-                    "song_name": "",
+                    "id": 1,
+                    "song_name": "First Love",
                     "album_name": "",
                     "singers": "",
-                    "image_source": "",
+                    "image_source": "https://a10.gaanacdn.com/gn_pl_img/playlists/lJvKa56KDV/vKaRjXN63D/size_m_1656314269.webp",
+                    "song_source": "",
+                    "release_date": "",
+                    "duration": ""
+                },
+                {
+                    "id": 2,
+                    "song_name": "Bollywood Love Anthem",
+                    "album_name": "",
+                    "singers": "",
+                    "image_source": "https://a10.gaanacdn.com/gn_pl_img/playlists/JD2KJyAbOL/2KJyyL4ObO/size_m_1651650666.webp",
+                    "song_source": "",
+                    "release_date": "",
+                    "duration": ""
+                },
+                {
+                    "id": 3,
+                    "song_name": " Latest Love - Interna",
+                    "album_name": "",
+                    "singers": "",
+                    "image_source": "https://a10.gaanacdn.com/gn_pl_img/playlists/01A3mrWNQX/A3moMgGGbN/size_m_1673944638.webp",
+                    "song_source": "",
+                    "release_date": "",
+                    "duration": ""
+                },
+                {
+                    "id": 4,
+                    "song_name": "2000s Top Romance",
+                    "album_name": "",
+                    "singers": "",
+                    "image_source": "https://a10.gaanacdn.com/gn_pl_img/playlists/9En3peWXDV/En3poxMEKX/size_m_1655098902.webp",
+                    "song_source": "",
+                    "release_date": "",
+                    "duration": ""
+                },
+                {
+                    "id": 5,
+                    "song_name": "Soft Love",
+                    "album_name": "",
+                    "singers": "",
+                    "image_source": "https://a10.gaanacdn.com/gn_pl_img/playlists/oAJbDElKnL/JbDdEGZmbn/size_m_1635481113.webp",
+                    "song_source": "",
+                    "release_date": "",
+                    "duration": ""
+                },
+                {
+                    "id": 6,
+                    "song_name": "90s Ka Solid Romance",
+                    "album_name": "",
+                    "singers": "",
+                    "image_source": "https://a10.gaanacdn.com/gn_pl_img/playlists/DwPKOxB3qV/PKOk0wZaKq/size_m_1664444109.webp",
+                    "song_source": "",
+                    "release_date": "",
+                    "duration": ""
+                },
+                {
+                    "id": 7,
+                    "song_name": "Electronic Love",
+                    "album_name": "",
+                    "singers": "",
+                    "image_source": "https://a10.gaanacdn.com/gn_pl_img/playlists/81l3Mye3rM/l3MymRg63r/size_m_1620581990.webp",
+                    "song_source": "",
+                    "release_date": "",
+                    "duration": ""
+                },
+                {
+                    "id": 8,
+                    "song_name": "Slow Romantic Hindi",
+                    "album_name": "",
+                    "singers": "",
+                    "image_source": "https://a10.gaanacdn.com/gn_pl_img/playlists/XzVWRLKdqR/zVWRmox63d/size_m_1684127157.webp",
                     "song_source": "",
                     "release_date": "",
                     "duration": ""
@@ -699,21 +769,91 @@
             "sliderName": "Featured Artists",
             "songsCards": [
                 {
-                    "id": "",
-                    "song_name": "",
+                    "id": 0,
+                    "song_name": "Pritam",
                     "album_name": "",
                     "singers": "",
-                    "image_source": "",
+                    "image_source": "https://a10.gaanacdn.com/gn_img/artists/zLp36PvbrG/Lp36AR0KrG/size_m_1516707336.webp",
                     "song_source": "",
                     "release_date": "",
                     "duration": ""
                 },
                 {
-                    "id": "",
-                    "song_name": "",
+                    "id": 1,
+                    "song_name": "Arijit Singh",
                     "album_name": "",
                     "singers": "",
-                    "image_source": "",
+                    "image_source": "https://a10.gaanacdn.com/gn_img/artists/Dk9KNk23Bx/k9KNqJJbBx/size_m_1638898900.webp",
+                    "song_source": "",
+                    "release_date": "",
+                    "duration": ""
+                },
+                {
+                    "id": 2,
+                    "song_name": "Badshah",
+                    "album_name": "",
+                    "singers": "",
+                    "image_source": "https://a10.gaanacdn.com/gn_img/artists/9MAWe7KyJe/MAWe9lBGWy/size_m_1516185303.webp",
+                    "song_source": "",
+                    "release_date": "",
+                    "duration": ""
+                },
+                {
+                    "id": 3,
+                    "song_name": "B Praak",
+                    "album_name": "",
+                    "singers": "",
+                    "image_source": "https://a10.gaanacdn.com/gn_img/artists/6Zxb2r7b9w/Zxb2xp0w39/size_m.jpg",
+                    "song_source": "",
+                    "release_date": "",
+                    "duration": ""
+                },
+                {
+                    "id": 4,
+                    "song_name": "Tony Kakkar",
+                    "album_name": "",
+                    "singers": "",
+                    "image_source": "https://a10.gaanacdn.com/gn_img/artists/Dk9KNk23Bx/k9KNgP763B/size_m_1595857138.webp",
+                    "song_source": "",
+                    "release_date": "",
+                    "duration": ""
+                },
+                {
+                    "id": 5,
+                    "song_name": "Alka Yagnik",
+                    "album_name": "",
+                    "singers": "",
+                    "image_source": "https://a10.gaanacdn.com/gn_img/artists/DwPKOBbqVZ/DwPKOBbqVZ/size_m_1516104380.webp",
+                    "song_source": "",
+                    "release_date": "",
+                    "duration": ""
+                },
+                {
+                    "id": 6,
+                    "song_name": "Neha Kakkar",
+                    "album_name": "",
+                    "singers": "",
+                    "image_source": "https://a10.gaanacdn.com/gn_img/artists/Rz4W87v3xD/Rz4W8ppWxD/size_m_1638817418.webp",
+                    "song_source": "",
+                    "release_date": "",
+                    "duration": ""
+                },
+                {
+                    "id": 7,
+                    "song_name": "Payal Dev",
+                    "album_name": "",
+                    "singers": "",
+                    "image_source": "https://a10.gaanacdn.com/gn_img/artists/P7m3GNKqxo/7m3Gv4ZGKq/size_m_1595159332.webp",
+                    "song_source": "",
+                    "release_date": "",
+                    "duration": ""
+                },
+                {
+                    "id": 8,
+                    "song_name": "Tanishk Bagchi",
+                    "album_name": "",
+                    "singers": "",
+                    "image_source": "https://a10.gaanacdn.com/gn_img/artists/21GWwrR3pk/1GWwYz4DKp/size_m_1567610470.webp",
                     "song_source": "",
                     "release_date": "",
                     "duration": ""
@@ -724,21 +864,151 @@
             "sliderName": "Radio",
             "songsCards": [
                 {
-                    "id": "",
-                    "song_name": "",
+                    "id": 0,
+                    "song_name": "Love Hits",
                     "album_name": "",
                     "singers": "",
-                    "image_source": "",
+                    "image_source": "https://a10.gaanacdn.com/gn_img/g_radio_circle/kGxbnw0Ky4/kGxbnxJ3y4/size_m_1643619328.webp",
                     "song_source": "",
                     "release_date": "",
                     "duration": ""
                 },
                 {
-                    "id": "",
-                    "song_name": "",
+                    "id": 1,
+                    "song_name": "Party Non Stop",
                     "album_name": "",
                     "singers": "",
-                    "image_source": "",
+                    "image_source": "https://a10.gaanacdn.com/gn_img/g_radio_circle/DwPKOxB3qV/DwPKOwkKqV/size_m_1643620296.webp",
+                    "song_source": "",
+                    "release_date": "",
+                    "duration": ""
+                },
+                {
+                    "id": 2,
+                    "song_name": "90s & 2000s (Bollywood)",
+                    "album_name": "",
+                    "singers": "",
+                    "image_source": "https://a10.gaanacdn.com/gn_img/g_radio_circle/2lV3dl13Rg/2lV3dGZKRg/size_m_1643700049.webp",
+                    "song_source": "",
+                    "release_date": "",
+                    "duration": ""
+                },
+                {
+                    "id": 3,
+                    "song_name": "Morning Mix",
+                    "album_name": "",
+                    "singers": "",
+                    "image_source": "https://a10.gaanacdn.com/gn_img/g_radio_circle/10q3ZR1352/10q3Zm2K52/size_m_1643619359.webp",
+                    "song_source": "",
+                    "release_date": "",
+                    "duration": ""
+                },
+                {
+                    "id": 4,
+                    "song_name": "90'S Ki Cassette Radio",
+                    "album_name": "",
+                    "singers": "",
+                    "image_source": "https://a10.gaanacdn.com/gn_img/g_radio_circle/4Z9bqZoKyQ/4Z9bqNPKyQ/size_m_1643617195.webp",
+                    "song_source": "",
+                    "release_date": "",
+                    "duration": ""
+                },
+                {
+                    "id": 5,
+                    "song_name": "90s & 2000s Hits",
+                    "album_name": "",
+                    "singers": "",
+                    "image_source": "https://a10.gaanacdn.com/gn_img/g_radio_circle/R7vKXr6Wmr/R7vKX1v3mr/size_m_1643620138.webp",
+                    "song_source": "",
+                    "release_date": "",
+                    "duration": ""
+                },
+                {
+                    "id": 6,
+                    "song_name": "Bhakti",
+                    "album_name": "",
+                    "singers": "",
+                    "image_source": "https://a10.gaanacdn.com/gn_img/g_radio_circle/qaLKY623pO/qaLKYgwWpO/size_m_1643694440.webp",
+                    "song_source": "",
+                    "release_date": "",
+                    "duration": ""
+                },
+                {
+                    "id": 7,
+                    "song_name": "International Retro",
+                    "album_name": "",
+                    "singers": "",
+                    "image_source": "https://a10.gaanacdn.com/gn_img/g_radio_circle/qa4WEqqWP1/qa4WEm5WP1/size_m_1643620030.webp",
+                    "song_source": "",
+                    "release_date": "",
+                    "duration": ""
+                },
+                {
+                    "id": 8,
+                    "song_name": "Riya's Retro Radio",
+                    "album_name": "",
+                    "singers": "",
+                    "image_source": "https://a10.gaanacdn.com/gn_img/g_radio_circle/R7vKXr6Wmr/R7vKXNxWmr/size_m_1643617279.webp",
+                    "song_source": "",
+                    "release_date": "",
+                    "duration": ""
+                },
+                {
+                    "id": 9,
+                    "song_name": "Hip Hop & RnB",
+                    "album_name": "",
+                    "singers": "",
+                    "image_source": "https://a10.gaanacdn.com/gn_img/g_radio_circle/DwPKOkBKqV/DwPKOR0bqV/size_m_1643618507.webp",
+                    "song_source": "",
+                    "release_date": "",
+                    "duration": ""
+                },
+                {
+                    "id": 10,
+                    "song_name": "Classic Retro (Hindi)",
+                    "album_name": "",
+                    "singers": "",
+                    "image_source": "https://a10.gaanacdn.com/gn_img/g_radio_circle/ogNWkLDbmX/ogNWk7pWmX/size_m_1643700170.webp",
+                    "song_source": "",
+                    "release_date": "",
+                    "duration": ""
+                },
+                {
+                    "id": 11,
+                    "song_name": "International Rock",
+                    "album_name": "",
+                    "singers": "",
+                    "image_source": "https://a10.gaanacdn.com/gn_img/g_radio_circle/Rz4W87v3xD/Rz4W8R6KxD/size_m_1643786924.webp",
+                    "song_source": "",
+                    "release_date": "",
+                    "duration": ""
+                },
+                {
+                    "id": 12,
+                    "song_name": "Party Non-Stop",
+                    "album_name": "",
+                    "singers": "",
+                    "image_source": "https://a10.gaanacdn.com/gn_img/g_radio_circle/g4w3vwrWjJ/g4w3vjj3jJ/size_m_1643619179.webp",
+                    "song_source": "",
+                    "release_date": "",
+                    "duration": ""
+                },
+                {
+                    "id": 13,
+                    "song_name": "International Hits",
+                    "album_name": "",
+                    "singers": "",
+                    "image_source": "https://a10.gaanacdn.com/gn_img/g_radio_circle/lJvKa63DV9/lJvKa54KDV/size_m_1643620384.webp",
+                    "song_source": "",
+                    "release_date": "",
+                    "duration": ""
+                },
+                {
+                    "id": 14,
+                    "song_name": "Sukoon Ke Pal",
+                    "album_name": "",
+                    "singers": "",
+                    "image_source": "https://a10.gaanacdn.com/gn_img/g_radio_circle/P7m3GvNKqx/P7m3Gw63qx/size_m_1584715867.webp",
                     "song_source": "",
                     "release_date": "",
                     "duration": ""
@@ -749,21 +1019,131 @@
             "sliderName": "Gaana Recommends",
             "songsCards": [
                 {
-                    "id": "",
-                    "song_name": "",
+                    "id": 0,
+                    "song_name": "Safroneya...The Journey",
                     "album_name": "",
                     "singers": "",
-                    "image_source": "",
+                    "image_source": "https://a10.gaanacdn.com/gn_img/shows/Rz4W8evbxD/z4W8mo4bxD/size_m_1626989417.webp",
                     "song_source": "",
                     "release_date": "",
                     "duration": ""
                 },
                 {
-                    "id": "",
-                    "song_name": "",
+                    "id": 1,
+                    "song_name": "International Pop Hits",
                     "album_name": "",
                     "singers": "",
-                    "image_source": "",
+                    "image_source": "https://a10.gaanacdn.com/gn_pl_img/playlists/oAJbDlbnL8/JbD7mmxqWn/size_m_1677485855.webp",
+                    "song_source": "",
+                    "release_date": "",
+                    "duration": ""
+                },
+                {
+                    "id": 2,
+                    "song_name": "Hindi Workout Esse",
+                    "album_name": "",
+                    "singers": "",
+                    "image_source": "https://a10.gaanacdn.com/gn_pl_img/playlists/D0PKLqr3Gl/PKLvEeRnWG/size_m_1610733110.webp",
+                    "song_source": "",
+                    "release_date": "",
+                    "duration": ""
+                },
+                {
+                    "id": 3,
+                    "song_name": "Lofi Focus",
+                    "album_name": "",
+                    "singers": "",
+                    "image_source": "https://a10.gaanacdn.com/gn_pl_img/playlists/01A3mar3NQ/A3mOzpkdbN/size_m_1641351758.webp",
+                    "song_source": "",
+                    "release_date": "",
+                    "duration": ""
+                },
+                {
+                    "id": 4,
+                    "song_name": "90s - Unplugged",
+                    "album_name": "",
+                    "singers": "",
+                    "image_source": "https://a10.gaanacdn.com/gn_pl_img/playlists/YoEWlwa3zX/EWlgyvjB3z/size_m_1593674250.webp",
+                    "song_source": "",
+                    "release_date": "",
+                    "duration": ""
+                },
+                {
+                    "id": 5,
+                    "song_name": "2000s Ultimate Rock",
+                    "album_name": "",
+                    "singers": "",
+                    "image_source": "https://a10.gaanacdn.com/gn_pl_img/playlists/lJvKa16KDV/vKa0kQZxbD/size_m_1640064956.webp",
+                    "song_source": "",
+                    "release_date": "",
+                    "duration": ""
+                },
+                {
+                    "id": 6,
+                    "song_name": "❤️ Songs Like Jersey",
+                    "album_name": "",
+                    "singers": "",
+                    "image_source": "https://a10.gaanacdn.com/gn_pl_img/playlists/XzVWRyL3dq/VWRj076eWd/size_m_1651055445.webp",
+                    "song_source": "",
+                    "release_date": "",
+                    "duration": ""
+                },
+                {
+                    "id": 7,
+                    "song_name": "Acoustic Pop",
+                    "album_name": "",
+                    "singers": "",
+                    "image_source": "https://a10.gaanacdn.com/gn_pl_img/playlists/Dk9KNk23Bx/k9KNd9EBWB/size_m_1625464702.webp",
+                    "song_source": "",
+                    "release_date": "",
+                    "duration": ""
+                },
+                {
+                    "id": 8,
+                    "song_name": "Indie Medium",
+                    "album_name": "",
+                    "singers": "",
+                    "image_source": "https://a10.gaanacdn.com/gn_pl_img/playlists/7rVW1Rbk56/VW18meAR3k/size_m_1682573915.webp",
+                    "song_source": "",
+                    "release_date": "",
+                    "duration": ""
+                },
+                {
+                    "id": 9,
+                    "song_name": "Viral Hits - English",
+                    "album_name": "",
+                    "singers": "",
+                    "image_source": "https://a10.gaanacdn.com/gn_pl_img/playlists/9En3pqeWXD/n3pd2GQ03X/size_m_1678951274.webp",
+                    "song_source": "",
+                    "release_date": "",
+                    "duration": ""
+                },
+                {
+                    "id": 10,
+                    "song_name": "90s Feel Good-Hindi",
+                    "album_name": "",
+                    "singers": "",
+                    "image_source": "https://a10.gaanacdn.com/gn_pl_img/playlists/a7LWBzWzXA/LWBj0V0jWz/size_m_1531508257.webp",
+                    "song_source": "",
+                    "release_date": "",
+                    "duration": ""
+                },
+                {
+                    "id": 11,
+                    "song_name": "Workout Beats",
+                    "album_name": "",
+                    "singers": "",
+                    "image_source": "https://a10.gaanacdn.com/gn_pl_img/playlists/9En3pqeWXD/En3pDq883X/size_m_1644816468.webp",
+                    "song_source": "",
+                    "release_date": "",
+                    "duration": ""
+                },
+                {
+                    "id": 12,
+                    "song_name": "Chalo Theek Hai",
+                    "album_name": "",
+                    "singers": "",
+                    "image_source": "https://a10.gaanacdn.com/gn_img/albums/ZaP37OR3Dy/P37OADv83D/size_m.jpg",
                     "song_source": "",
                     "release_date": "",
                     "duration": ""
@@ -774,21 +1154,101 @@
             "sliderName": "Gaana Originals",
             "songsCards": [
                 {
-                    "id": "",
-                    "song_name": "",
+                    "id": 0,
+                    "song_name": "Fuljhadi",
                     "album_name": "",
                     "singers": "",
-                    "image_source": "",
+                    "image_source": "https://a10.gaanacdn.com/gn_img/song/ZaP37RKDy7/P37jedwxKD/size_m_1572945744.webp",
                     "song_source": "",
                     "release_date": "",
                     "duration": ""
                 },
                 {
-                    "id": "",
-                    "song_name": "",
+                    "id": 1,
+                    "song_name": "Dua Qubool",
                     "album_name": "",
                     "singers": "",
-                    "image_source": "",
+                    "image_source": "https://a10.gaanacdn.com/gn_img/song/ZaP37OR3Dy/P37j6nNBKD/size_m_1572061086.webp",
+                    "song_source": "",
+                    "release_date": "",
+                    "duration": ""
+                },
+                {
+                    "id": 2,
+                    "song_name": "Beautiful",
+                    "album_name": "",
+                    "singers": "",
+                    "image_source": "https://a10.gaanacdn.com/gn_img/song/4Z9bqgo3yQ/9bq5NAAMby/size_m_1575346114.webp",
+                    "song_source": "",
+                    "release_date": "",
+                    "duration": ""
+                },
+                {
+                    "id": 3,
+                    "song_name": "Chal Oye",
+                    "album_name": "",
+                    "singers": "",
+                    "image_source": "https://a10.gaanacdn.com/gn_img/song/a7LWBzWzXA/LWByzn143z/size_m_1559966142.webp",
+                    "song_source": "",
+                    "release_date": "",
+                    "duration": ""
+                },
+                {
+                    "id": 4,
+                    "song_name": "Mujhe Kaise Pata Na Chala",
+                    "album_name": "",
+                    "singers": "",
+                    "image_source": "https://a10.gaanacdn.com/gn_img/song/Bp1bAynb02/1bADxownW0/size_m_1543830076.webp",
+                    "song_source": "",
+                    "release_date": "",
+                    "duration": ""
+                },
+                {
+                    "id": 5,
+                    "song_name": "Ja Chali Ja",
+                    "album_name": "",
+                    "singers": "",
+                    "image_source": "https://a10.gaanacdn.com/gn_img/song/ogNWkDbmXJ/NWk00EnJbm/size_m_1574995579.webp",
+                    "song_source": "",
+                    "release_date": "",
+                    "duration": ""
+                },
+                {
+                    "id": 6,
+                    "song_name": "Totta",
+                    "album_name": "",
+                    "singers": "",
+                    "image_source": "https://a10.gaanacdn.com/gn_img/song/10q3ZR1352/q3ZVgOR035/size_m_1572403351.webp",
+                    "song_source": "",
+                    "release_date": "",
+                    "duration": ""
+                },
+                {
+                    "id": 7,
+                    "song_name": "Zindagi Mil Jayegi",
+                    "album_name": "",
+                    "singers": "",
+                    "image_source": "https://a10.gaanacdn.com/gn_img/song/koMWQ4B3qL/MWQB52O8bq/size_m_1571827514.webp",
+                    "song_source": "",
+                    "release_date": "",
+                    "duration": ""
+                },
+                {
+                    "id": 8,
+                    "song_name": "Lambiya Judaiyan",
+                    "album_name": "",
+                    "singers": "",
+                    "image_source": "https://a10.gaanacdn.com/gn_img/song/10q3Zj1352/q3ZVlBdN35/size_m_1574299493.webp",
+                    "song_source": "",
+                    "release_date": "",
+                    "duration": ""
+                },
+                {
+                    "id": 9,
+                    "song_name": "Dil",
+                    "album_name": "",
+                    "singers": "",
+                    "image_source": "https://a10.gaanacdn.com/gn_img/song/oAJbDlbnL8/JbDyvz8xKn/size_m_1572769766.webp",
                     "song_source": "",
                     "release_date": "",
                     "duration": ""
@@ -799,21 +1259,111 @@
             "sliderName": "Popular In English",
             "songsCards": [
                 {
-                    "id": "",
-                    "song_name": "",
+                    "id": 0,
+                    "song_name": "Do It Anyway",
                     "album_name": "",
                     "singers": "",
-                    "image_source": "",
+                    "image_source": "https://a10.gaanacdn.com/gn_img/albums/DwPKOxB3qV/PKOxrV4a3q/size_m.jpg",
                     "song_source": "",
                     "release_date": "",
                     "duration": ""
                 },
                 {
-                    "id": "",
-                    "song_name": "",
+                    "id": 1,
+                    "song_name": "In Da Getto",
                     "album_name": "",
                     "singers": "",
-                    "image_source": "",
+                    "image_source": "https://a10.gaanacdn.com/gn_img/albums/qaLKY623pO/LKY69jB73p/size_m.webp",
+                    "song_source": "",
+                    "release_date": "",
+                    "duration": ""
+                },
+                {
+                    "id": 2,
+                    "song_name": "My Universe",
+                    "album_name": "",
+                    "singers": "",
+                    "image_source": "https://a10.gaanacdn.com/gn_img/albums/d41WjznWPL/1WjzBjy7WP/size_m.webp",
+                    "song_source": "",
+                    "release_date": "",
+                    "duration": ""
+                },
+                {
+                    "id": 3,
+                    "song_name": "Jalebi Baby",
+                    "album_name": "",
+                    "singers": "",
+                    "image_source": "https://a10.gaanacdn.com/gn_img/albums/zLp36v3rGe/p36PAO9Gbr/size_m.webp",
+                    "song_source": "",
+                    "release_date": "",
+                    "duration": ""
+                },
+                {
+                    "id": 4,
+                    "song_name": "INDUSTRY BABY",
+                    "album_name": "",
+                    "singers": "",
+                    "image_source": "https://a10.gaanacdn.com/gn_img/albums/7rVW1Rbk56/VW1aNjDnWk/size_m.webp",
+                    "song_source": "",
+                    "release_date": "",
+                    "duration": ""
+                },
+                {
+                    "id": 5,
+                    "song_name": "As It Was",
+                    "album_name": "",
+                    "singers": "",
+                    "image_source": "https://a10.gaanacdn.com/gn_img/albums/4Z9bqgo3yQ/9bqg6vDP3y/size_m.jpg",
+                    "song_source": "",
+                    "release_date": "",
+                    "duration": ""
+                },
+                {
+                    "id": 6,
+                    "song_name": "STAY",
+                    "album_name": "",
+                    "singers": "",
+                    "image_source": "https://a10.gaanacdn.com/gn_img/albums/DwPKOxB3qV/PKOxed263q/size_m.webp",
+                    "song_source": "",
+                    "release_date": "",
+                    "duration": ""
+                },
+                {
+                    "id": 7,
+                    "song_name": "Don't You Hold Me Down",
+                    "album_name": "",
+                    "singers": "",
+                    "image_source": "https://a10.gaanacdn.com/gn_img/albums/R7vKX6WmrP/vKX60dmPWm/size_m.webp",
+                    "song_source": "",
+                    "release_date": "",
+                    "duration": ""
+                },
+                {
+                    "id": 8,
+                    "song_name": "Woman",
+                    "album_name": "",
+                    "singers": "",
+                    "image_source": "https://a10.gaanacdn.com/gn_img/albums/g4w3vwrWjJ/w3vwBQePWj/size_m.webp",
+                    "song_source": "",
+                    "release_date": "",
+                    "duration": ""
+                },
+                {
+                    "id": 9,
+                    "song_name": "Summer Of Love",
+                    "album_name": "",
+                    "singers": "",
+                    "image_source": "https://a10.gaanacdn.com/gn_img/albums/kGxbnw0Ky4/xbnwg46lKy/size_m_1629447058.webp",
+                    "song_source": "",
+                    "release_date": "",
+                    "duration": ""
+                },
+                {
+                    "id": 10,
+                    "song_name": "Easy On Me",
+                    "album_name": "",
+                    "singers": "",
+                    "image_source": "https://a10.gaanacdn.com/gn_img/albums/MmqK5pEbwR/qK5pmMdEbw/size_m_1637318611.webp",
                     "song_source": "",
                     "release_date": "",
                     "duration": ""
@@ -824,21 +1374,101 @@
             "sliderName": "Star Gallery",
             "songsCards": [
                 {
-                    "id": "",
-                    "song_name": "",
+                    "id": 0,
+                    "song_name": "Featuring Kajol",
                     "album_name": "",
                     "singers": "",
-                    "image_source": "",
+                    "image_source": "https://a10.gaanacdn.com/gn_pl_img/playlists/zLp36PvbrG/Lp36oVeGWr/size_m_1628652511.webp",
                     "song_source": "",
                     "release_date": "",
                     "duration": ""
                 },
                 {
-                    "id": "",
-                    "song_name": "",
+                    "id": 1,
+                    "song_name": "Featuring Ranbir Kapoor",
                     "album_name": "",
                     "singers": "",
-                    "image_source": "",
+                    "image_source": "https://a10.gaanacdn.com/gn_pl_img/playlists/NOXWVgbkqL/OXWV59eL3k/size_m_1628653069.webp",
+                    "song_source": "",
+                    "release_date": "",
+                    "duration": ""
+                },
+                {
+                    "id": 2,
+                    "song_name": "Featuring Alia Bhatt",
+                    "album_name": "",
+                    "singers": "",
+                    "image_source": "https://a10.gaanacdn.com/gn_pl_img/playlists/XYybzNrb2g/Yybz0XGE32/size_m_1628652460.webp",
+                    "song_source": "",
+                    "release_date": "",
+                    "duration": ""
+                },
+                {
+                    "id": 3,
+                    "song_name": "Featuring Shahid Kapoor",
+                    "album_name": "",
+                    "singers": "",
+                    "image_source": "https://a10.gaanacdn.com/gn_pl_img/playlists/01A3mrWNQX/1A3mZxJeWN/size_m_1651045629.webp",
+                    "song_source": "",
+                    "release_date": "",
+                    "duration": ""
+                },
+                {
+                    "id": 4,
+                    "song_name": "Featuring Katrina Kaif",
+                    "album_name": "",
+                    "singers": "",
+                    "image_source": "https://a10.gaanacdn.com/gn_pl_img/playlists/0wrb4N3Lg7/wrb4qjmLKL/size_m_1628651558.webp",
+                    "song_source": "",
+                    "release_date": "",
+                    "duration": ""
+                },
+                {
+                    "id": 5,
+                    "song_name": "Featuring Deepika Padukone",
+                    "album_name": "",
+                    "singers": "",
+                    "image_source": "https://a10.gaanacdn.com/gn_pl_img/playlists/Dk9KNk23Bx/k9KNk52B3B/size_m_1628651730.webp",
+                    "song_source": "",
+                    "release_date": "",
+                    "duration": ""
+                },
+                {
+                    "id": 6,
+                    "song_name": "Featuring Ranveer Singh",
+                    "album_name": "",
+                    "singers": "",
+                    "image_source": "https://a10.gaanacdn.com/gn_pl_img/playlists/9MAWe7KyJe/MAWeXBOq3y/size_m_1628651946.webp",
+                    "song_source": "",
+                    "release_date": "",
+                    "duration": ""
+                },
+                {
+                    "id": 7,
+                    "song_name": "Featuring Vicky Kaushal",
+                    "album_name": "",
+                    "singers": "",
+                    "image_source": "https://a10.gaanacdn.com/gn_pl_img/playlists/Dk9KNk23Bx/9KN6MoMoKB/size_m_1652467093.webp",
+                    "song_source": "",
+                    "release_date": "",
+                    "duration": ""
+                },
+                {
+                    "id": 8,
+                    "song_name": "Featuring Salman Khan",
+                    "album_name": "",
+                    "singers": "",
+                    "image_source": "https://a10.gaanacdn.com/gn_pl_img/playlists/z8k3y13rxo/8k3ydlnPKr/size_m_1628651508.webp",
+                    "song_source": "",
+                    "release_date": "",
+                    "duration": ""
+                },
+                {
+                    "id": 9,
+                    "song_name": "Featuring Shahrukh Khan",
+                    "album_name": "",
+                    "singers": "",
+                    "image_source": "https://a10.gaanacdn.com/gn_pl_img/playlists/MmqK5pEbwR/mqK5pMvlbw/size_m_1628651695.webp",
                     "song_source": "",
                     "release_date": "",
                     "duration": ""
@@ -849,21 +1479,101 @@
             "sliderName": "Bhakti",
             "songsCards": [
                 {
-                    "id": "",
-                    "song_name": "",
+                    "id": 0,
+                    "song_name": "Bhakti Top 50 - Hindi",
                     "album_name": "",
                     "singers": "",
-                    "image_source": "",
+                    "image_source": "https://a10.gaanacdn.com/gn_pl_img/playlists/YoEWlwa3zX/EWlwZMZQ3z/size_m_1666074474.webp",
                     "song_source": "",
                     "release_date": "",
                     "duration": ""
                 },
                 {
-                    "id": "",
-                    "song_name": "",
+                    "id": 1,
+                    "song_name": "Practically Gita",
                     "album_name": "",
                     "singers": "",
-                    "image_source": "",
+                    "image_source": "https://a10.gaanacdn.com/gn_img/shows/0wrb4kNWLg/wrb4eVLKLg/size_m_1619863880.webp",
+                    "song_source": "",
+                    "release_date": "",
+                    "duration": ""
+                },
+                {
+                    "id": 2,
+                    "song_name": "Popular Collection Of Hanuman",
+                    "album_name": "",
+                    "singers": "",
+                    "image_source": "https://a10.gaanacdn.com/gn_pl_img/playlists/d41WjnWPLq/41WjQ7rN3P/size_m_1543315060.webp",
+                    "song_source": "",
+                    "release_date": "",
+                    "duration": ""
+                },
+                {
+                    "id": 3,
+                    "song_name": "Bhagavadgita Discourse",
+                    "album_name": "",
+                    "singers": "",
+                    "image_source": "https://a10.gaanacdn.com/gn_img/shows/VdNW0Mbo5e/dNW0JxOKo5/size_m_1609131672.webp",
+                    "song_source": "",
+                    "release_date": "",
+                    "duration": ""
+                },
+                {
+                    "id": 4,
+                    "song_name": "Bhagavad Gita Hindi",
+                    "album_name": "",
+                    "singers": "",
+                    "image_source": "https://a10.gaanacdn.com/gn_img/shows/mGjKr1b6zX/mGjKr5Jb6z/size_m_1620120866.webp",
+                    "song_source": "",
+                    "release_date": "",
+                    "duration": ""
+                },
+                {
+                    "id": 5,
+                    "song_name": "Uddhava Gita - The Last Message Of Lord Shri Krishna",
+                    "album_name": "",
+                    "singers": "",
+                    "image_source": "https://a10.gaanacdn.com/gn_img/shows/mGjKrP1W6z/GjKrmBmb6z/size_m_1619862467.webp",
+                    "song_source": "",
+                    "release_date": "",
+                    "duration": ""
+                },
+                {
+                    "id": 6,
+                    "song_name": "Popular Collection Of Shiva",
+                    "album_name": "",
+                    "singers": "",
+                    "image_source": "https://a10.gaanacdn.com/gn_pl_img/playlists/XYybzrb2gz/YybzpR2g32/size_m_1543315225.webp",
+                    "song_source": "",
+                    "release_date": "",
+                    "duration": ""
+                },
+                {
+                    "id": 7,
+                    "song_name": "Popular Aarti Collectons",
+                    "album_name": "",
+                    "singers": "",
+                    "image_source": "https://a10.gaanacdn.com/gn_pl_img/playlists/0wrb4N3Lg7/wrb45qQVKL/size_m_1632483036.webp",
+                    "song_source": "",
+                    "release_date": "",
+                    "duration": ""
+                },
+                {
+                    "id": 8,
+                    "song_name": "Popular Collection Of Durga",
+                    "album_name": "",
+                    "singers": "",
+                    "image_source": "https://a10.gaanacdn.com/gn_pl_img/playlists/g4w3vr3jJB/w3vjxxQo3j/size_m_1517229642.webp",
+                    "song_source": "",
+                    "release_date": "",
+                    "duration": ""
+                },
+                {
+                    "id": 9,
+                    "song_name": "Popular Collection Of Krishna",
+                    "album_name": "",
+                    "singers": "",
+                    "image_source": "https://a10.gaanacdn.com/gn_pl_img/playlists/Dk9KNk23Bx/k9KNX4qJWB/size_m_1543314899.webp",
                     "song_source": "",
                     "release_date": "",
                     "duration": ""
@@ -874,21 +1584,101 @@
             "sliderName": "Indie Playlists",
             "songsCards": [
                 {
-                    "id": "",
-                    "song_name": "",
+                    "id": 0,
+                    "song_name": "Indie Swag",
                     "album_name": "",
                     "singers": "",
-                    "image_source": "",
+                    "image_source": "https://a10.gaanacdn.com/gn_pl_img/playlists/P7m3GNKqxo/m3GmZVMRbq/size_m_1681884182.webp",
                     "song_source": "",
                     "release_date": "",
                     "duration": ""
                 },
                 {
-                    "id": "",
-                    "song_name": "",
+                    "id": 1,
+                    "song_name": "New Indie Releases",
                     "album_name": "",
                     "singers": "",
-                    "image_source": "",
+                    "image_source": "https://a10.gaanacdn.com/gn_pl_img/playlists/7rVW1Rbk56/VW1QaOvRWk/size_m_1681981749.webp",
+                    "song_source": "",
+                    "release_date": "",
+                    "duration": ""
+                },
+                {
+                    "id": 2,
+                    "song_name": "Hip Hop IND",
+                    "album_name": "",
+                    "singers": "",
+                    "image_source": "https://a10.gaanacdn.com/gn_pl_img/playlists/jBr3gLyWR1/r3gNMGNYKR/size_m_1668456105.webp",
+                    "song_source": "",
+                    "release_date": "",
+                    "duration": ""
+                },
+                {
+                    "id": 3,
+                    "song_name": "New Age Indie",
+                    "album_name": "",
+                    "singers": "",
+                    "image_source": "https://a10.gaanacdn.com/gn_pl_img/playlists/VdNW0Mbo5e/NW0AE5Zwbo/size_m_1666335300.webp",
+                    "song_source": "",
+                    "release_date": "",
+                    "duration": ""
+                },
+                {
+                    "id": 4,
+                    "song_name": "Desi Hip Hop",
+                    "album_name": "",
+                    "singers": "",
+                    "image_source": "https://a10.gaanacdn.com/gn_pl_img/playlists/6Zxb27K9wN/xb2rzlwmb9/size_m_1683897603.webp",
+                    "song_source": "",
+                    "release_date": "",
+                    "duration": ""
+                },
+                {
+                    "id": 5,
+                    "song_name": "Indie Chill",
+                    "album_name": "",
+                    "singers": "",
+                    "image_source": "https://a10.gaanacdn.com/gn_pl_img/playlists/2lV3d1WRgB/V3daMNJEWR/size_m_1658337896.webp",
+                    "song_source": "",
+                    "release_date": "",
+                    "duration": ""
+                },
+                {
+                    "id": 6,
+                    "song_name": "Indie Hip Hop",
+                    "album_name": "",
+                    "singers": "",
+                    "image_source": "https://a10.gaanacdn.com/gn_pl_img/playlists/g4w3vr3jJB/w3vMOk6jKj/size_m_1669093512.webp",
+                    "song_source": "",
+                    "release_date": "",
+                    "duration": ""
+                },
+                {
+                    "id": 7,
+                    "song_name": "Indie Pop",
+                    "album_name": "",
+                    "singers": "",
+                    "image_source": "https://a10.gaanacdn.com/gn_pl_img/playlists/dwN398KDPa/N39PA9orKD/size_m_1669099797.webp",
+                    "song_source": "",
+                    "release_date": "",
+                    "duration": ""
+                },
+                {
+                    "id": 8,
+                    "song_name": "Indie Love",
+                    "album_name": "",
+                    "singers": "",
+                    "image_source": "https://a10.gaanacdn.com/gn_pl_img/playlists/01A3mrWNQX/A3mRRVa5WN/size_m_1658381014.webp",
+                    "song_source": "",
+                    "release_date": "",
+                    "duration": ""
+                },
+                {
+                    "id": 9,
+                    "song_name": "Indie Drive",
+                    "album_name": "",
+                    "singers": "",
+                    "image_source": "https://a10.gaanacdn.com/gn_pl_img/playlists/VdNW0Mbo5e/NW0AERVObo/size_m_1658337309.webp",
                     "song_source": "",
                     "release_date": "",
                     "duration": ""
@@ -899,21 +1689,101 @@
             "sliderName": "Mehfil-E-Ghazal",
             "songsCards": [
                 {
-                    "id": "",
-                    "song_name": "",
+                    "id": 0,
+                    "song_name": "Top Ghazals",
                     "album_name": "",
                     "singers": "",
-                    "image_source": "",
+                    "image_source": "https://a10.gaanacdn.com/gn_pl_img/playlists/6Zxb27K9wN/Zxb2GL6oK9/size_m_1654611731.webp",
                     "song_source": "",
                     "release_date": "",
                     "duration": ""
                 },
                 {
-                    "id": "",
-                    "song_name": "",
+                    "id": 1,
+                    "song_name": "Romantic Ghazal",
                     "album_name": "",
                     "singers": "",
-                    "image_source": "",
+                    "image_source": "https://a10.gaanacdn.com/gn_pl_img/playlists/4Z9bqgo3yQ/Z9bq1kBMby/size_m_1654611424.webp",
+                    "song_source": "",
+                    "release_date": "",
+                    "duration": ""
+                },
+                {
+                    "id": 2,
+                    "song_name": "Ghazal From Films",
+                    "album_name": "",
+                    "singers": "",
+                    "image_source": "https://a10.gaanacdn.com/gn_pl_img/playlists/kGxbn03y4r/GxbnBajlby/size_m_1654611639.webp",
+                    "song_source": "",
+                    "release_date": "",
+                    "duration": ""
+                },
+                {
+                    "id": 3,
+                    "song_name": "Ghazals By Pankaj Udhas",
+                    "album_name": "",
+                    "singers": "",
+                    "image_source": "https://a10.gaanacdn.com/gn_pl_img/playlists/Oxd3xP3gVY/xd3xEkm5Wg/size_m_1654611918.webp",
+                    "song_source": "",
+                    "release_date": "",
+                    "duration": ""
+                },
+                {
+                    "id": 4,
+                    "song_name": "Sham-E-Ghazal",
+                    "album_name": "",
+                    "singers": "",
+                    "image_source": "https://a10.gaanacdn.com/gn_pl_img/playlists/R7vKX6WmrP/7vKXp2q6Km/size_m_1654611412.webp",
+                    "song_source": "",
+                    "release_date": "",
+                    "duration": ""
+                },
+                {
+                    "id": 5,
+                    "song_name": "Great Ghazals By Anup Jalota",
+                    "album_name": "",
+                    "singers": "",
+                    "image_source": "https://a10.gaanacdn.com/gn_pl_img/playlists/VdNW0Mbo5e/dNW06x92Ko/size_m_1515074406.webp",
+                    "song_source": "",
+                    "release_date": "",
+                    "duration": ""
+                },
+                {
+                    "id": 6,
+                    "song_name": "Great Ghazals By Ashok Khosla",
+                    "album_name": "",
+                    "singers": "",
+                    "image_source": "https://a10.gaanacdn.com/gn_pl_img/playlists/koMWQBbqLE/oMWQOmd4Kq/size_m_1515074408.webp",
+                    "song_source": "",
+                    "release_date": "",
+                    "duration": ""
+                },
+                {
+                    "id": 7,
+                    "song_name": "Great Ghazals By Chandan Das",
+                    "album_name": "",
+                    "singers": "",
+                    "image_source": "https://a10.gaanacdn.com/gn_pl_img/playlists/zLp36v3rGe/Lp36q2GmKr/size_m_1515074413.webp",
+                    "song_source": "",
+                    "release_date": "",
+                    "duration": ""
+                },
+                {
+                    "id": 8,
+                    "song_name": "Great Ghazals By Hariharan",
+                    "album_name": "",
+                    "singers": "",
+                    "image_source": "https://a10.gaanacdn.com/gn_pl_img/playlists/Rz4W8evbxD/4W8e5a1pbx/size_m_1515078945.webp",
+                    "song_source": "",
+                    "release_date": "",
+                    "duration": ""
+                },
+                {
+                    "id": 9,
+                    "song_name": "Ghazals By Manhar Udhas",
+                    "album_name": "",
+                    "singers": "",
+                    "image_source": "https://a10.gaanacdn.com/gn_pl_img/playlists/dwN398KDPa/wN39QX2r3D/size_m_1654611852.webp",
                     "song_source": "",
                     "release_date": "",
                     "duration": ""
@@ -922,23 +1792,3 @@
         }
     ]
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
