@@ -28,6 +28,7 @@ code {
     height: 3px;
     background-color: #fdba2c;
 }
+
 .bar {
     content: "";
     display: inline;
@@ -37,29 +38,35 @@ code {
     left: 50%;
     text-align: center;
 }
+
 .bar:nth-child(1) {
     background-color: #da4733;
     animation: loading 3s linear infinite;
 }
+
 .bar:nth-child(2) {
     background-color: #3b78e7;
     animation: loading 3s linear 1s infinite;
 }
+
 .bar:nth-child(3) {
     background-color: #fdba2c;
     animation: loading 3s linear 2s infinite;
 }
+
 @keyframes loading {
     from {
         left: 50%;
         width: 0;
         z-index: 100;
     }
+
     33.3333% {
         left: 0;
         width: 100%;
         z-index: 10;
     }
+
     to {
         left: 0;
         width: 100%;
@@ -69,8 +76,37 @@ code {
 .custom-h {
     height: auto !important;
 }
+
 @media screen and (min-width: 1024px) {
     .custom-h {
         height: 100vh !important;
     }
 }
+
+
+
+
+.custom-scrollbar {
+    scrollbar-width: thin;
+    scrollbar-color: #333 #000;
+  }
+  
+  .custom-scrollbar::-webkit-scrollbar {
+    width: 6px;
+    border: 1px solid red;
+    
+  }
+  
+  .custom-scrollbar::-webkit-scrollbar-track {
+    background-color: #222;
+  }
+  
+  .custom-scrollbar::-webkit-scrollbar-thumb {
+    background-color: #777;
+    border-radius: 5px;
+  }
+  
+  .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+    background-color: #444;
+  }
+  
