@@ -39,7 +39,7 @@ const Header = () => {
     const pageName = pathname?.split("/")?.filter(Boolean)?.[0]
 
     return (
-        <div className='sticky top-0 z-10 flex flex-row items-center justify-between h-14 px-4 md:px-5 bg-white dark:bg-black'>
+        <div className='sticky top-0 p-3 z-10 flex flex-row items-center justify-between h-14 px-4 md:px-5 bg-white dark:bg-black'>
             {/* when ever loader is true show Loader bar */}
             {loading && <Loader />}
 
