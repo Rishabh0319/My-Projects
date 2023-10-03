@@ -7,6 +7,7 @@ import { Context } from '../context/contextApi';
 const LeftNav = () => {
     const { selectCategories, setSelectCategories, mobileMenu } = useContext(Context);
 
+    // console.log("value of MobileMenuMode: " + mobileMenu);
     const navigate = useNavigate();
 
     const clickHandler = (name, type) => {
@@ -24,8 +25,7 @@ const LeftNav = () => {
 
     return (
         <div
-            className={`md:block w-[240px] overflow-y-auto h-full py-4 bg-black absolute md:relative z-10 translate-x-[-240px] md:translate-x-0 transition-all ${mobileMenu ? "translate-x-0" : ""
-                }`}
+            className={`md:block w-[240px] overflow-y-auto h-full py-4 bg-black absolute md:relative z-10 translate-x-[-240px] md:translate-x-0 transition-all ${mobileMenu ? "translate-x-[0px]" : ""}`}
         >
             <div className="flex px-5 flex-col">
                 {categories.map((item) => {
@@ -51,7 +51,7 @@ const LeftNav = () => {
                 })}
                 <hr className="my-5 border-white/[0.2]" />
                 <div className="text-white/[0.5] text-[12px]">
-                    Clone by: JS Dev Hindi
+                    Clone by: Rishabh Tripathi
                 </div>
             </div>
         </div>

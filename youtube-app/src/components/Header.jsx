@@ -32,6 +32,7 @@ const Header = () => {
     }
 
     const mobileMenuToggle = () => {
+        // console.log('mobile menu toggle');
         setMobileMenu(!mobileMenu);
     }
 
@@ -43,7 +44,7 @@ const Header = () => {
             {/* when ever loader is true show Loader bar */}
             {loading && <Loader />}
 
-            <div className='flex h-5 item-center'>
+            <div className='flex items-center h-5'>
                 {pageName !== 'video' && (
                     <div
                         className="flex md:hidden md:mr-6 cursor-pointer items-center justify-center h-10 w-10 rounded-full hover:bg-[#303030]/[0.6]"
@@ -75,8 +76,8 @@ const Header = () => {
                         value={searchQuery}
                     />
                 </div>
-                <button className='w-[40px] md:w-[60px] h-8 md:h-10 flex items-center justify-center border border-l-0 border-[#303030] rounded-r-3xl bg-white/[0.1]'>
-                    <IoIosSearch className='text-white text-xl' />
+                <button className='w-[40px] md:w-[60px] h-8 md:h-10 flex items-center justify-center border border-l-0 border-[#303030] rounded-r-3xl bg-white/[0.1]' onClick={() => { searchQueryHandler('searchButton') }}>
+                    <IoIosSearch className='text-white text-xl' onClick={() => { searchQueryHandler('searchButton') }} />
                 </button>
             </div>
             <div className="flex items-center">
@@ -87,9 +88,9 @@ const Header = () => {
                     <div className="flex items-center justify-center ml-2 h-10 w-10 rounded-full hover:bg-[#303030]/[0.6]">
                         <FiBell className='text-white text-xl cursor-pointer' />
                     </div>
-                    <div className="flex h-8 w-8 overflow-hidden rounded-full mt-1 md:ml-4">
-                        <img src="https://xsgames.co/randomusers/assets/avatars/male/40.jpg" alt="avatar" />
-                    </div>
+                </div>
+                <div className="flex h-8 w-8 overflow-hidden rounded-full mt-1 md:ml-4">
+                    <img src="https://xsgames.co/randomusers/assets/avatars/male/40.jpg" alt="avatar" />
                 </div>
             </div>
         </div>

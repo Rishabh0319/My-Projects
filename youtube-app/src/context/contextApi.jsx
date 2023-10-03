@@ -22,7 +22,7 @@ export const AppContext = ({ children }) => {
 
         setLoading(true);
         fetchDataFromApi(`search/?q=${query}`).then(({ contents }) => {
-            console.log(contents);
+            // console.log(contents);
             setSearchResults(contents);
             setLoading(false);
         })
